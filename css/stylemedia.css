@@ -406,6 +406,9 @@
     header .notification .launch-time .sale-time li {
         font-size: 15px;
     }
+    header .account span ul li a {
+        display: none;
+    }
     header nav .right {
         width: 100%;
         /* background-color: red; */
@@ -755,13 +758,11 @@
     header .notification .launch-time .sale-time {
         display: flex;
     }
-    header .account span img {
-        display: block;
-    }
-    header .account span ul li a {
-        display: none;
-    }
     header .account div img {
+        /* display: none; */
+        width: 23px;
+    }
+    main .grid article .progress  {
         display: none;
     }
     header .account div ul {
