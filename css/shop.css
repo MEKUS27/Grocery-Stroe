@@ -1,0 +1,658 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header  .bar {
+    /* margin-top: 132px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* padding-left: 10px; */
+    /* background-color: blanchedalmond; */
+}
+header  .bar ul {
+    /* padding-top: 18px; */
+    /* padding-bottom: 11px; */
+    /* padding-left: 10px; */
+    display: flex;
+    list-style: none;
+}
+header  .bar ul li {
+    margin-left: 20px;
+}
+header  .bar ul li a {
+    text-decoration: none;
+    color: #030712;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header  .bar ul li a::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #634C9F;
+    display: block;
+    margin: auto;
+    /* margin-bottom: 100px; */
+    transition: 0.5s;
+    /* padding-bottom: 10px; */
+}
+header  .bar ul li a:hover::after {
+    width: 100%;
+    /* margin-top: 10px; */
+}
+header  .bar ul li a.active {
+    color: #634C9F;
+}
+header  .bar .almost {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    padding-right: 30px;
+    margin-left: 120px;
+}
+header  .bar  .almost p {
+    margin-left: 23px;
+}
+header  .bar  .almost a {
+    text-decoration: none;
+    color: #030712;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header  .bar  .almost .alf {
+    color: #DC2626;
+    /* font-weight: bold; */
+}
+header  .bar .almost p span {
+    border-radius: 3px;
+    padding: 3px 7px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background: linear-gradient(100deg, #DC2626, #EA580C);
+}
+
+header .element {
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+    background-image: url(../images/elements01.png);
+    background-position: top;
+    background-size: cover;
+    padding: 30px;
+    /* padding-top: 20px; */
+    padding-bottom: 50px;
+}
+header .element  div h5 {
+    color: #166534;
+    margin-bottom: 20px;
+    width: 190px;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background: linear-gradient(100deg, #4aee86, #80faad3f, #80faad00);
+}
+header .element  div h1 {
+    color: #39245F;
+    font-family: sans-serif;
+    font-size: 49px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+header .element  div p {
+    font-family: sans-serif;
+    margin-top: 5px;
+    font-size: 14px;
+    width: 420px;
+    color: #030712;
+}
+header .element  div form {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+header .element  div form button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: #634C9F;
+    color: white;
+}
+header .element  div form h2 {
+    color: #DC2626;
+    /* font-family: "Encode Sans Expanded", sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+header .element  div form h2 span {
+    color: #030712;
+    text-decoration:line-through;
+    font-weight: lighter;
+}
+header .element  div form p {
+    margin-left: 10px;
+    margin-top: -3px;
+    color: #030712;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.lis .list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* padding: 20px; */
+    /* padding-left: 20px; */
+}
+.lis .list ul {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* text-align: center; */
+}
+.lis .list ul li {
+    text-align: center;
+    margin-left: 30px;
+}
+.lis .list ul li h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #030712;
+}
+
+.lis .list ul li div {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: #F3F4F6;
+    border-radius: 100%;
+}
+
+/* list ends here */
+
+.column {
+    width: 100%;
+    height: auto;
+    /* background-color: #E5E7EB; */
+}
+.column  .NewArrivals {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.column  .NewArrivals h1 {
+    color: #030712;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.column  .NewArrivals h1 span {
+    color: #9CA3AF;
+    font-family:  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.column  .NewArrivals  a {
+    text-decoration: none;
+}
+.column  .NewArrivals  a button {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #212529;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.column  .NewArrivals  button img {
+    margin-left: 10px;
+}
+.column .al {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.column .left {
+    width: 48%;
+    height: auto;
+    background-image: url(../images/banner-20.jpg.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+    padding: 30px;
+}
+.column .right {
+    width: 48%;
+    height: auto;
+    background-image: url(../images/banner-21.jpg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+.column .al span {
+    color: #7C2D12;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    background-color: #FFEDD5;
+    padding: 5px 20px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.column .al h1 {
+    font-family:  sans-serif;
+    color: #111827;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.column .al p {
+    color: #6B7280;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: 300; */
+    font-size: 15px;
+}
+.column .al a {
+    text-decoration: none;
+}
+.column .al a button {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #212529;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.column .al button img {
+    margin-left: 10px;
+}
+.column .al a button:hover {
+    border-color: #7C2D12;
+    transition: 00.5s;
+}
+/* column ends here */
+
+.main-product {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.main-product .products {
+    width: auto;
+    height: auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 7px;
+    /* margin-top: 1px; */
+    border: thin solid #e5e7eb88;
+    border-radius: 10px;
+}
+.main-product .products article {
+    /* width: 209px; */
+    height: auto;
+    /* padding: 10px; */
+    padding-left: 18px;
+    /* padding-right: 20px; */
+    position: relative;
+    border: thin solid #e5e7ebcc;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 20px;
+}
+.main-product .products article .sp  {
+    margin-top: 12px;
+    position: absolute;
+    top: -1%;
+    left: 8%;
+    width: 48px;
+    height: 30px;
+    /* border-radius: 10%; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #ffedd5;
+    /* color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ea5a0c91;
+    font-weight: bolder;
+    font-smooth: 300px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-product .products article .image-card {
+    /* width: 180px; */
+    text-align: center;
+    padding-top: 10px;
+    /* background-color: red; */
+}
+.main-product .products article .image-card img {
+    width: 110px;
+    margin-top: 20px;
+}
+.main-product .products article .ig {
+    margin-top: -15px;
+    display: none;
+}
+.main-product .products article .product-title h1 {
+    margin-top: 7px;
+    font-size: 13px;
+    color: #030712;
+    font-smooth: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-product .products article .product-description {
+    display: none;
+}
+.main-product .products article  ul {
+    display: flex;
+    margin-top: 10px;
+}
+.main-product .products article  ul li {
+    list-style: none;
+    margin-right: 6px;
+    font-size: 14px;
+    color: #FACC15;
+}
+.main-product .products article  ul li .star {
+    color: #D1D5DB;
+}
+.main-product .products article .product-price {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.main-product .products article .product-price p {
+    color: #DC2626;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.main-product article .product-price span {
+    text-decoration: line-through;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 500;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.main-product article .cart {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.main-product article .cart a img {
+    background-color: #16A34A;
+    color: white;
+    padding: 10px 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 40px;
+}
+.main-product article .cart h2 {
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #16A34A;
+    /* font-weight: 800; */
+    text-transform: capitalize;
+}
+
+/* .main-product ends here */
+
+.Frame-shop {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+
+}
+.Frame-shop span {
+    color: #EA580C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Frame-shop h1 {
+    font-family:  sans-serif;
+    color: #111827;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.Frame-shop p {
+    color: #6B7280;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: 300; */
+    font-size: 15px;
+}
+.Frame-shop a {
+    text-decoration: none;
+}
+.Frame-shop a button {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #212529;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Frame-shop a button:hover {
+    border-color: #EA580C;
+    transition: 00.5s;
+}
+.Frame-shop button img {
+    margin-left: 10px;
+}
+.Frame-shop .one {
+    height: auto;
+    background-image: url(../images/SVG/banner-17.jpg.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+.Frame-shop .two {
+    height: auto;
+    background-image: url(../images/SVG/banner-18.jpg.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+.Frame-shop .three {
+    height: auto;
+    background-image: url(../images/SVG/banner-19.jpg.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+/* .Frame-shop ends here */
+
+.card {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: #E5E7EB; */
+}
+.card  .NewArrivals {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.card  .NewArrivals h1 {
+    color: #030712;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card  .NewArrivals h1 span {
+    color: #9CA3AF;
+    font-family:  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card  .NewArrivals  a {
+    text-decoration: none;
+}
+.card  .NewArrivals  a button {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #212529;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card  .NewArrivals  button img {
+    margin-left: 10px;
+}
+.card .cards {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 25px;
+}
+.card .cards .one {
+    height: auto;
+    background-color: transparent;
+}
+.card .cards .two {
+    height: auto;
+    background-color: transparent;
+}.card .cards .three {
+    height: auto;
+    background-color: transparent;
+}.card .cards .four {
+    height: auto;
+    background-color: transparent;
+}
+.card .cards .image{
+    width: 100%;
+    height:auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    /* padding: 30px; */
+}
+.card .cards .image img{
+    width: 92%;
+    height: 92%;
+    object-fit: cover;
+}
+.card .cards .image img:hover{
+    transform: scale(1.1);
+    transition: 00.3s ease-in-out;
+    cursor: pointer;
+}
+.card .cards .image h1 {
+    color: #634C9F;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    margin-top: 15px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* font-family: sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card .cards h1 {
+    color: #030712;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    /* font-weight: 800; */
+}
+.card .cards p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: #4B5563;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.card .cards ul li {
+    display: flex;
+    align-items: center;
+}
+.card .cards ul li .p {
+    font-style: italic;
+}
+.card .cards ul li span {
+    margin-top: 10px;
+    padding-left: 10px;
+    color: #030712;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card .cards ul li span i {
+    color: #4B5563;
+}
+/* card ends here */

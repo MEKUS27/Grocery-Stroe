@@ -1,0 +1,801 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* @media only screen and (max-width: 1250px) {
+    header .justify {
+        display: block;
+        font-weight: 900;
+    }
+    header .account {
+        width: 20%;
+    }
+    header  .logo input {
+        padding-right: 150%;
+    }
+    header .account div img {
+        width: 22px;
+        display: flex;
+        align-items: center;
+    }
+    header .account span ul li a {
+        font-size: 12px;
+    }
+    header nav .left {
+        display: none;
+    }
+    header nav .right {
+        width: 100%;
+        padding: 0px 5px;
+    }
+    header nav .right ul {
+    display: none;
+    }
+    header nav .right .Tabpanel {
+        width: auto;
+        margin-left: 0px;
+    }
+    header nav {
+        margin-top: 125px;
+    }
+    .Frame {
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr ;
+    } 
+    .banner {
+        padding: 0px 10px;
+        overflow-x: scroll;
+    }
+    .banner::-webkit-scrollbar {
+        display: none;
+    }
+    .banner .one {
+        width: 230px;
+    }
+    .banner .two {
+        width: 230px;
+    }
+    .banner .three {
+        width: 230px;
+    }
+    .banner .four {
+        width: 230px;
+    }
+    .iner {
+        padding: 0px 10px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+    .iner .left {
+        width: auto;
+        margin-top: 10px;
+        padding: 20px 30px;
+    }
+    .iner .right {
+        width: auto;
+        padding: 30px 30px;
+    }
+    .iner h1 {
+        margin-top: 10;
+        font-size: 35px;
+    }
+} */
+@media only screen and (max-width: 1115px) {
+    header .justify {
+        display: block;
+        font-weight: 900;
+    }
+    header .account {
+        width: 20%;
+    }
+    header  .logo input {
+        padding-right: 120%;
+    }
+    header .account div img {
+        width: 22px;
+        display: flex;
+        align-items: center;
+    }
+    header .account span ul li a {
+        font-size: 12px;
+    }
+    header nav .left {
+        display: none;
+    }
+    header nav .right {
+        width: 100%;
+        /* background-color: red; */
+        padding: 0px 5px;
+    }
+    header nav .right ul {
+    display: none;
+    }
+    header nav .right .Tabpanel {
+        width: auto;
+        margin-left: 0px;
+    }
+    header nav {
+        margin-top: 125px;
+    }
+    .Frame {
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr ;
+        /* overflow-x: scroll; */
+    } 
+    .banner {
+        padding: 0px 10px;
+        /* width: ; */
+        overflow-x: scroll;
+    }
+    .banner::-webkit-scrollbar {
+        display: none;
+    }
+    .banner .one {
+        width: 230px;
+    }
+    .banner .two {
+        width: 230px;
+    }
+    .banner .three {
+        width: 230px;
+    }
+    .banner .four {
+        width: 230px;
+    }
+    .iner {
+        padding: 0px 10px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+    .iner .left {
+        width: auto;
+        margin-top: 10px;
+        padding: 20px 30px;
+    }
+    .iner .right {
+        width: auto;
+        padding: 30px 30px;
+    }
+    .iner h1 {
+        margin-top: 10;
+        font-size: 35px;
+    }
+    footer .box {
+        overflow-x: scroll;
+    }
+    footer .box::-webkit-scrollbar {
+        /* height: 12px; */
+      }
+    footer .box .one {
+        width: 200px;
+    }
+    footer .box .two {
+        width: 200px;
+        padding-left: 40px;
+    }
+    footer .box .three {
+        width: 200px;
+        padding-left: 0px;
+    }
+    footer .box .four {
+        width: 160px;
+        padding-left: 0px;
+    }
+    footer .box .five {
+        width: 240px;
+        padding-left: 0px;
+        /* background-color: red; */
+    }
+}
+
+@media only screen and (max-width: 1029px) {
+    header .notification h1 {
+        padding-left: 30px;
+        font-size: 10px;
+    }
+    header .notification .launch-time {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+    }
+    header .notification .launch-time p {
+        font-size: 10px;
+    }
+    header .notification .launch-time .sale-time li {
+        font-size: 14px;
+    }
+    header  .logo img {
+        width: 120px;
+        /* margin-right: 20px; */
+    }
+    header  .logo input {
+        padding-right: 120%;
+    }
+    header .account {
+        width: 20%;
+    }
+    header  .account .text {
+        display: block;
+    }
+}
+@media only screen and (max-width: 960px) {
+    header .row {
+        display: none;
+    }
+    header .account {
+        width: 40%;
+        padding-right: 0px;
+    }
+    header  .row-2 {
+        padding: 10px 10px;
+    }
+    header  .logo img {
+        width: 120px;
+        margin-right: 20px;
+    }
+    header  .logo input {
+        display: none;
+    }
+    header  .logo i {
+        display: none;
+    }
+    header   .inp {
+        display: block;
+        margin-left: -30px;
+        color: #6B7280;
+    }
+    /* header   .inp  */
+    header .secondinp {
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #F3F4F6;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        display: block;
+    }
+    .Frame {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        /* overflow-x: scroll; */
+    }
+    .Frame2 {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .Frame2::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for WebKit browsers */
+      }
+    .Frame2 .one {
+        width: 300px;
+        /* height: 40vh; */
+        padding: 15px 20px;
+    }
+    .Frame2 .two {
+        width: 300px;
+        /* height: 40vh; */
+        padding: 15px 20px;
+    }
+    .Frame2 .three {
+        width: 300px;
+        /* height: 40vh; */
+        padding: 15px 10px;
+    }
+    .product .prod {
+        width: 100%;
+    }
+    footer .form {
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding: 15px;
+    }
+    footer .form .left {
+        width: 55%;
+        padding: 10px;
+    }
+    footer .form .right {
+        width: 100%;
+        padding: 0px;
+    }
+    footer .right p {
+        text-align: right;
+        margin-left: 0px;
+    }
+    footer .right .inp input  {
+        width: 100%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 40px;
+    }
+    footer .right .inp button {
+        top: 0%;
+    }
+    footer .pay {
+        padding: 10px;
+        flex-direction: column;
+    }
+    footer .pay .logo ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer .pay .list ul li a {
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 820px) {
+    header .notification h1 {
+        padding-left: 10px;
+        font-size: 8px;
+    }
+    header .notification .launch-time {
+        padding-right: 10px;
+    }
+    header .notification .launch-time p {
+        font-size: 8px;
+    }
+    header .notification .launch-time .sale-time li {
+        font-size: 12px;
+    }
+    header .notification .launch-time .sale-time div {
+        width: 40px; 
+    }
+    header nav .right .Tabpanel div {
+        width: 70%;
+    }
+    .Frame {
+        width: 95%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        overflow-x: scroll;
+        grid-gap: 20px;
+        padding: 10px 10px;
+    }
+    .Frame::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for WebKit browsers */
+      }
+    .Frame img {
+        width: 40px;
+    }
+    .Frame h2  {
+        width: 200px;
+        font-size: 15px;
+    }
+    .Frame h2 p {
+        font-size: 12px;
+    }
+    .Frame .one {
+        width: 100%;
+    }
+    .Frame2 span {
+        font-size: 12px;
+    }
+    .Frame2 h1 {
+        font-size: 19px;
+    }
+    .Frame2 p {
+        font-size: 13px;
+    }
+    .Frame2 a button {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .Frame2 button img {
+        margin-left: 5px;
+    }
+   
+    
+}
+
+@media only screen and (max-width: 680px) {
+    header .notification h1 {
+        display: none;
+    }
+    header .notification .launch-time {
+        width: 100%;
+        justify-content: left;
+        padding-left: 10px;
+    }
+    header .notification .launch-time p {
+        font-size: 11px;
+    }
+    header .notification .launch-time .sale-time {
+        margin-left: 30px;
+    }
+    header .notification .launch-time .sale-time li {
+        font-size: 15px;
+    }
+    header nav .right {
+        width: 100%;
+        /* background-color: red; */
+    }
+    header nav .right .Tabpanel {
+        padding-left: 10px;
+        background-position: top;
+        background-image:
+        linear-gradient(40deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
+        url(../images/slider-03.jpg.png);
+    }
+    header nav .right .Tabpanel div {
+        width: auto;
+    }
+    header nav .right .Tabpanel div h1 {
+        width: 310px;
+        font-size: 34px;
+    }
+    header nav .right .Tabpanel div p {
+        font-size: 11px;
+    }
+    header nav .right .Tabpanel div form {
+        margin-top: 15px;
+    }
+    header nav .right .Tabpanel div form h2 {
+        margin-left: 0px;
+    }
+    header nav .right .Tabpanel div form p {
+        margin-left: 0px;
+        font-size: 11px;
+    }
+    header nav .right .Tabpanel div form {
+        flex-direction: column-reverse;
+    }
+    header nav .right .Tabpanel div form h2 span {
+        font-size: 15px;
+    }
+    header nav .right .Tabpanel div form button {
+        margin-top: -100px;
+        font-size: 14px;
+    }
+    .Frame {
+        width: 95%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        overflow-x: scroll;
+        grid-gap: 20px;
+        padding: 10px 10px;
+    }
+    .Frame::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for WebKit browsers */
+      }
+    .Frame img {
+        margin-top: 15px;
+        width: 40px;
+    }
+    .Frame h2  {
+        width: 200px;
+        font-size: 15px;
+    }
+    .Frame h2 p {
+        font-size: 12px;
+    }
+    .Frame .one {
+        width: 100%;
+    }
+    main {
+        padding: 13px 10px;
+    }
+    main .NewArrivals h1 {
+        font-size: 12px;
+    }
+    main .NewArrivals h1 span {
+        display: none;
+    }
+    main .NewArrivals  a button {
+        padding: 7px;
+        font-size: 11px;
+    }
+    main .NewArrivals  button img {
+        margin-left: 5px;
+    }
+    main .grid article .sp {
+        width: 35px;
+        height: 25px;
+        top: 10%;
+        left: -0%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-size: 10px;
+    }
+    main .grid article .image-card img {
+        width: 90px;
+        cursor:default;
+    }
+    main .grid article ul li {
+        font-size: 12px;
+    }
+    .banner .one {
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right:20px;
+        padding-bottom: 155px;
+    }
+    .banner .two {
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right:20px;
+        padding-bottom: 140px;
+    }
+    .banner .three {
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right:20px;
+        padding-bottom: 140px;
+    }
+    .banner .four {
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right:20px;
+        padding-bottom: 140px;
+    }
+    .banner span {
+        font-size: 11px;
+    }
+    .banner h1 {
+        font-size: 15px;
+    }
+    .banner p {
+        font-size: 12px;
+    }
+    .banner a button {
+        padding: 8px;
+        font-size: 11px;
+    }
+    .banner button img {
+        margin-left: 4px;
+    }
+    .product {
+        padding: 10px 10px;
+    }
+    .product .NewArrivals h1 {
+        font-size: 12px;
+    }
+    .product .NewArrivals h1 span {
+        display: none;
+    }
+    .product .NewArrivals  a button {
+        padding: 7px;
+        font-size: 11px;
+    }
+    .product .NewArrivals  button img {
+        margin-left: 5px;
+    }
+    .product .prod h1 {
+        font-size: 12px;
+        font-family: sans-serif;
+        font-smooth: 100px;
+    }
+    .product .prod .img img {
+        width: 60px;
+    }
+    .iner span {
+        font-size: 11px;
+    }
+    .iner h1 {
+        font-size: 19px;
+    }
+    .iner p {
+        font-size: 13px;
+    }
+    .iner a button {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .iner button img {
+        margin-left: 5px;
+    }
+    .promo {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+    .promo h1 {
+        font-size: 15px;
+    }
+    .promo  p {
+        font-size: 12px;
+    }
+    .compaines {
+        padding: 10px 10px;
+    }
+    .compaines .NewArrivals h1 {
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .compaines .NewArrivals h1 span {
+        display: none;
+    }
+    .compaines .NewArrivals  a button {
+        padding: 7px;
+        font-size: 11px;
+    }
+    .compaines .NewArrivals  button img {
+        margin-left: 5px;
+    }
+    .compaines .com .ig img {
+        width: 40px;
+    }
+    .compaines .com .ig div {
+        padding-left: 8px;
+
+    }
+    .compaines .com .ig h1 {
+        font-size: 11px;
+        font-family: sans-serif;
+        padding-top: 2px;
+    }
+    .compaines .com .ig p {
+        font-size: 10px;
+        color: #6B7280;
+        margin-top: -15px;
+        padding-bottom: 2px;
+    }
+    .compaines .com .ig ul i {
+        font-size: 9px;
+    }
+    .compaines .com p {
+        font-size: 10px;
+    }
+    footer {
+        padding-bottom: 5px;
+    }
+    footer .form {
+        flex-direction: column;
+        padding-bottom: 15px;
+        padding: 15px;
+    }
+    footer .form .left {
+        width: 100%;
+        padding: 0px;
+    }
+    footer .form .right {
+        width: 100%;
+        padding: 0px;
+        padding-top: 10px;
+    }
+    footer .form .left h1 {
+        font-size: 18px;
+    }
+    footer .form .left p {
+        font-size: 12px;
+    }
+    footer .right .inp input  {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 40px;
+    }
+    footer .right .inp button {
+        top: 0%;
+    }
+    footer .right p {
+        text-align: right;
+        margin-left: 0px;
+        font-size: 11px;
+        /* padding-top: 5px; */
+    }
+    footer .box {
+        display: none;
+    }
+    footer .box h4 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    footer .box ul li {
+        font-size: 13px;
+    }
+    footer .box ul li a {
+        font-size: 13px;
+    }
+    footer .box .one div img {
+        width: 22px;
+    }
+    footer .box .one div h3 {
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    footer .box .one div h5 {
+        font-size: 12px;
+    }
+    footer .box .five .app ul li {
+        font-size: 11px;
+    }
+    footer .box .five .social {
+        padding-top: 8%;
+    }
+    /* footer .box .five .social ul li {
+        padding: 8px;
+        font-size: 10px;
+    } */
+    footer .box .five .social p {
+        font-size: 12px;
+    }
+    footer .box .five .app img {
+        width: 90px;
+    }
+    footer .pay {
+        /* padding: 10px;
+        flex-direction: column; */
+        display: none;
+    }
+    footer .pay .logo ul {
+        margin-top: 10px;
+    }
+    footer .pay .list ul li a {
+        font-size: 12px;
+        margin-left: -10px;
+    }
+    
+   
+}
+@media only screen and (max-width: 480px) {
+    header .notification .launch-time {
+        width: 100%;
+    }
+    header .notification .launch-time p {
+        font-size: 11px;
+    }
+    header .notification .launch-time .sale-time li {
+        font-size: 12px;
+    }
+    header .notification .launch-time .sale-time div {
+        width: 40px;
+        
+    }
+    header .notification .launch-time .sale-time {
+        display: flex;
+    }
+    header .account div img {
+        display: none;
+    }
+    header .account div ul {
+        display: none;
+    }
+    .Frame {
+        width: 89%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        overflow-x: scroll;
+        grid-gap: 20px;
+        padding: 10px 10px;
+    }
+    header nav .right .Tabpanel div h1 {
+        width: 285px;
+        font-size: 27px;
+    }
+    header nav .right .Tabpanel {
+        padding-left: 10px;
+        background-position: top;
+        background-image:
+        linear-gradient(40deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
+        url(../images/slider-03.jpg.png);
+    }
+    .promo h1 {
+        font-size: 13px;
+    }
+    .promo  p {
+        font-size: 11px;
+    }
+    footer {
+        padding-bottom: 5px;
+    }
+    footer .box {
+        display: none;
+    }
+    footer .pay {
+        display: none;
+    }
+}
+@media only screen and (max-width: 367px) {
+    header nav .right .Tabpanel div h1 {
+        width: auto;
+        font-size: 31px;
+    }
+    footer .pay .logo ul   {
+        flex-wrap: wrap;
+    }
+    footer .pay .list ul {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-us {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 250px;
+    display: flex;
+}
+.about-us .text {
+    width: 60%;
+    height: auto;
+    padding: 20px 20px;
+    font-family: "Mulish", sans-serif;
+}
+.about-us .text h1 {
+    font-size: 25px;
+}
+.about-us .text p {
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.about-us .img {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-left: 30px;
+    /* align-items: center; */
+    justify-content: center;
+} 
+main {
+    margin-top: 22%;
+}
+
+.cart-item {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding: 10px 20px;
+    display: flex;
+}
+.cart-item .image-card {
+    display: flex;
+    /* align-items: center; */
+    /* background-color: blue; */
+}
+.cart-item .image-card  h1 {
+    width: 300px;
+    margin-top: 5px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    color: #030712;
+}
+.cart-item .image-card  p {
+    margin-top: 3px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color: #030712;
+}
+.cart-item .image-card span {
+    color: #634C9F;
+    font-weight: 1000;
+}
+
+.cart-item .Quantity {
+    width: 10%;
+    text-align: center;
+    /* background-color: red; */
+    margin-left: 10px;
+}
+.cart-item .Quantity  h1 {
+    /* width: 300px; */
+    margin-top: 5px;
+    font-family: "Poiret One", sans-serif;
+    font-optical-sizing: auto;
+    /* font -weight: <weight>; */
+    font-style: normal;
+    font-size: 17px;
+    color: #030712;
+}
+.cart-item .Quantity p {
+    margin-top: 3px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color: #030712;
+}
+.form-one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.form-one form {
+    padding-top: 5px;
+    padding-left: 30px;
+    /* font-family: "Poiret One", sans-serif; */
+}
+.form-one form button {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #634C9F;
+    font-family: "Playwrite ES Deco", cursive;
+    border-radius: 5px;
+}
+.form-one form button i {
+    margin-left: 5px;
+}
+
+.empty-cart {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 22%;
+    margin-bottom: 4%;
+    text-align: center;
+    background-color: transparent;
+}
+.empty-cart h1 {
+    width: auto;
+    border: thin solid #e5e7eb71;
+    color: #F03E3E;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    /* font-weight: 900; */
+    border-radius: 5px;
+}
+.empty-cart button {
+    margin-top: 10px;
+    padding: 15px 20px;
+    border: none;
+    background-color: #212529;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+}
