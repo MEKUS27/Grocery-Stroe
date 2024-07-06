@@ -662,29 +662,21 @@ main .grid {
     width: auto;
     height: auto;
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-top: 10px;
     /* border: thin solid #E5E7EB; */
     border-radius: 10px;
     overflow-x: scroll;
 }
-.grid::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for WebKit browsers */
-  }
+
 /* main .grid::-webkit-scrollbar{
     display: none;
 } */
 main .grid article {
     height: auto;
     padding: 10px;
-    /* padding-left: 20px; */
-    padding-right: 20px;
     position: relative;
-    /* border: thin solid #E5E7EB; */
     border-top: none;
-    /* border-radius: 10px; */
-    /* background-color: red; */
-    /* background-color: red; */
 }
 main .grid article .sp  {
     position: absolute;
@@ -693,10 +685,7 @@ main .grid article .sp  {
     width: 40px;
     height: 28px;
     /* border-radius: 10%; */
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-radius: 5px;
     background-color: #FFEDD5;
     /* color: blue; */
     display: flex;
@@ -730,6 +719,7 @@ main .grid article .product-title h1 {
     /* font-weight: 900; */
     font-family: sans-serif;
 }
+
 main .grid article ul {
     display: flex;
     margin-top: 1px;
@@ -759,7 +749,7 @@ main .grid article .product-price span {
     font-family: "Encode Sans Expanded", sans-serif;
     font-weight: 500;
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 11px;
 }
 main .grid article a {
     text-decoration: none;
@@ -783,6 +773,9 @@ main .grid article a button {
 main .grid article a button i {
     margin-left: 8px;
     font-size: 14px;
+}
+main .grid article .progress {
+    margin-top: -5px;
 }
 /* main ends here */
 

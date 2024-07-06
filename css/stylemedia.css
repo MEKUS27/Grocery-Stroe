@@ -165,9 +165,6 @@
     footer .box {
         overflow-x: scroll;
     }
-    footer .box::-webkit-scrollbar {
-        /* height: 12px; */
-      }
     footer .box .one {
         width: 200px;
     }
@@ -233,7 +230,7 @@
         padding: 10px 10px;
     }
     header  .logo img {
-        width: 120px;
+        width: 105px;
         margin-right: 20px;
     }
     header  .logo input {
@@ -269,7 +266,7 @@
         overflow-x: scroll;
     }
     .Frame2::-webkit-scrollbar {
-        display: none; /* Hide scrollbar for WebKit browsers */
+        display: block; /* Hide scrollbar for WebKit browsers */
       }
     .Frame2 .one {
         width: 300px;
@@ -347,6 +344,7 @@
     header nav .right .Tabpanel div {
         width: 70%;
     }
+    
     .Frame {
         width: 95%;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -504,6 +502,9 @@
         width: 90px;
         cursor:default;
     }
+    main .grid article .product-title h1 {
+        font-size: 9px;
+    }
     main .grid article ul li {
         font-size: 12px;
     }
@@ -571,14 +572,21 @@
     .product .prod .img img {
         width: 60px;
     }
+    .iner .left {
+        padding-left: 10px;
+    }
+    .iner .right {
+        padding-left: 10px;
+    }
     .iner span {
         font-size: 11px;
     }
     .iner h1 {
-        font-size: 19px;
+        font-size: 22px;
     }
     .iner p {
         font-size: 13px;
+        margin-top: -11px;
     }
     .iner a button {
         padding: 8px;
@@ -747,6 +755,12 @@
     header .notification .launch-time .sale-time {
         display: flex;
     }
+    header .account span img {
+        display: block;
+    }
+    header .account span ul li a {
+        display: none;
+    }
     header .account div img {
         display: none;
     }
@@ -771,6 +785,21 @@
         linear-gradient(40deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
         url(../images/slider-03.jpg.png);
     }
+    .iner .left {
+        padding-left: 10px;
+    }
+    .iner .right {
+        padding-left: 10px;
+    }
+    .iner span {
+        font-size: 11px;
+    }
+    .iner h1 {
+        font-size: 20px;
+    }
+    .iner p {
+        font-size: 13px;
+    }
     .promo h1 {
         font-size: 13px;
     }
@@ -791,6 +820,21 @@
     header nav .right .Tabpanel div h1 {
         width: auto;
         font-size: 31px;
+    }
+    .iner .left {
+        padding-left: 10px;
+    }
+    .iner .right {
+        padding-left: 10px;
+    }
+    .iner span {
+        font-size: 11px;
+    }
+    .iner h1 {
+        font-size: 17px;
+    }
+    .iner p {
+        font-size: 12px;
     }
     footer .pay .logo ul   {
         flex-wrap: wrap;
