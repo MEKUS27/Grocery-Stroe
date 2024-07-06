@@ -406,6 +406,9 @@
     header .notification .launch-time .sale-time li {
         font-size: 15px;
     }
+    header .account span img {
+        margin-left: 20px;
+    }
     header .account span ul li a {
         display: none;
     }

@@ -711,6 +711,9 @@ main .grid article .ig {
 main .grid article .ig img {
     width: 60px;
 }
+main .grid article .product-title {
+    position: relative;
+}
 main .grid article .product-title h1 {
     margin-top: 0px;
     font-size: 10px;
@@ -719,7 +722,19 @@ main .grid article .product-title h1 {
     /* font-weight: 900; */
     font-family: sans-serif;
 }
-
+main .grid article .product-title div {
+    top: -290%;
+    left: 90%;
+    position:absolute;
+    background-color: #634C9F;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
 main .grid article ul {
     display: flex;
     margin-top: 1px;
@@ -737,6 +752,7 @@ main .grid article .product-price {
     padding-top: 1px;
     display: flex;
     align-items: center;
+   
 }
 main .grid article .product-price p {
     color: #DC2626;
