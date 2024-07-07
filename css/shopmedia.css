@@ -45,6 +45,9 @@
     }
 }
 @media only screen and (max-width: 990px) {
+    .lis .list {
+        margin-bottom: 10px;
+    }
     .lis .list ul li div {
         width: 80px;
         height: 80px;
@@ -200,7 +203,7 @@
 @media only screen and (max-width: 680px) {
     header .element {
         padding: 30px 15px;
-        margin-top: 40%;
+        margin-top: 35%;
     }
     header .element  div   {
         width: 90%;
@@ -209,7 +212,7 @@
     }
     header .element  div h1 {
         width: auto;
-        font-size: 35px;
+        font-size: 30px;
     }
     header .element  div p {
         width: 280px;
@@ -345,10 +348,10 @@
         padding: 20px 10px;
     }
     header .element  div  h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     header .element  div p {
-        font-size: 12px;
+        font-size: 10px;
     }
     header .element  div form p {
         font-size: 12px;
