@@ -1338,8 +1338,8 @@ footer .right .inp  div {
 footer .right .inp input {
     width: 85%;
     outline: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     padding-left: 40px;
     border: thin solid #D1D5DB;
     border-radius: 5px;
@@ -1367,8 +1367,8 @@ footer .right .inp button {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     position:absolute;
-    top: 1%;
-    right: 0%;
+    top: 0%;
+    right: 7%;
 }
 footer .right p {
     padding-top: 10px;
