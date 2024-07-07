@@ -355,6 +355,7 @@
     }
     header .element  div form p {
         font-size: 9px;
+        color: red;
     }
     .column .al span {
         font-size: 10px;
