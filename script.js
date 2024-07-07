@@ -61,76 +61,19 @@ function hide() {
 // Ends Here
 
 
-// let form = document.getElementById('form')
-// form.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     let username = document.getElementById("username").value;
-//     let usernameerror = document.getElementById('usernameerror');
-//     let name = /^[a-zA-Z]{1}[a-zA-Z\s\-]{2,40}$/;
-
-//     let email = document.getElementById('email').value;
-//     let emailerror = document.getElementById('emailerror');
-//     let mail = /^[a-zA-Z0-9.!#$%&'*+/=?^_'{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
-
-//     if (username.value.trim() === "") {
-//         usernameerror.innerHTML = 'Please enter username';
-//         usernameerror.style.color = 'red';
-//         usernameerror.style.fontSize = '12px';
-//         usernameerror.style.transition = '0.5s';
-//         username.style.border = '1px solid red';
-//         return 
-//     } else if (!name.test(username.value)) {
-//         usernameerror.innerHTML = 'invalid name';
-//         usernameerror.style.color = 'red';
-//         usernameerror.style.fontSize = '12px';
-//         usernameerror.style.transition = '0.5s';
-//         username.style.border = '1px solid red';
-//         return
-//     }
-//     else if (email.trim() === "") {
-//         emailerror.innerHTML = "Please enter email"
-//         emailerror.style.color = 'red';
-//         emailerror.style.fontSize = '12px';
-//         emailerror.style.transition = '0.5s';
-//         emailerror.style.border = '1px solid red';
-//         return 
-//     }
-//     else if (!mail.test(email)) {
-//         emailerror.innerHTML = 'invalid Email';
-//         emailerror.style.color = 'red';
-//         emailerror.style.fontSize = '12px';
-//         emailerror.style.transition = '0.5s';
-//         emailerror.style.border = '1px solid red';
-//         return 
-//     }
-
-//     else {
-//         usernameerror.innerHTML = ''
-//         username.style.border = 'none';
-//         return true;
-//     }
-// })
 
 
 // search product starts here
-const search = () => {
-    const searchbox = document.getElementById("search-item").value.toUpperCase();
-    const storeitems = document.getElementById("product-list")
-    const product = document.querySelectorAll(".product")
-    const pname  = document.getElementsByTagName("h1")
+function toggleIcons(clickedIcon) {
+    const iconContainer = clickedIcon.parentElement;
+    const iconheartone = iconContainer.querySelector('.iconheartone');
+    const iconhearttwo = iconContainer.querySelector('.iconhearttwo');
 
-    for(var i=0; i < pname.length; i++) {
-        let match = product[i].getElementsByTagName('h1')[0];
-
-        if(match) {
-           let textvalue =  match.textContent || match.innerHTML
-
-           if(textvalue.toUpperCase().indexOf(searchbox) > -1) {
-               product[i].style.display = "";
-           }else {
-            product[i].style.display = "none";
-           }
-        }
+    if (iconheartone.style.display === 'none') {
+        iconheartone.style.display = 'block';
+        iconhearttwo.style.display = 'none';
+    } else {
+        iconheartone.style.display = 'none';
+        iconhearttwo.style.display = 'block';
     }
 }
