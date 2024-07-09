@@ -25,8 +25,8 @@ header .notification {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #634C9F;
-    padding: 10px 0;
+    background-color: #FF9900;
+    /* padding: 10px 0; */
     /* position: fixed; */
     /* z-index: 99; */
 }
@@ -63,6 +63,7 @@ header .notification .launch-time p {
     font-weight: 400;
     font-size: 13px;
     /* margin-right: 10px; */
+    margin-top: 20px;
 }
 header .notification .launch-time .sale-time {
     display: flex;
@@ -89,46 +90,48 @@ header .notification .launch-time .sale-time span {
 }
 /* header notification ends here */
 
-header .row {
+header .rox {
     width: auto;
     height: auto;
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: #FFFFFF;
     border: thin solid #E5E7EB;
     border-right: none;
     position: relative;
+    display: none !important;
 }
-header .row .one ul {
+header .rox .one ul {
     display: flex;
 }
-header .row .one ul li {
+header .rox .one ul li {
     list-style: none;
     margin-left: 20px;
 }
-header .row .one ul li a {
+header .rox .one ul li a {
     color: #6B7280;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* font-weight: 500; */
     text-decoration: none;
     font-size: 14px;
 }
-header .row .one ul li a.active {
+header .rox .one ul li a.active {
     color: #634C9F;
 }
-header .row .one ul li span {
-    color: #EA580C;
+header .rox .one ul li span {
+    color: #FF9900;
     font-weight: bolder;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     /* font-family: sans-serif; */
 }
-header .row .two  {
+header .rox .two  {
     display: flex;
 }
-header .row .two ul {
+header .rox .two ul {
     display: flex;
 }
-header .row .two ul li{
+header .rox .two ul li{
     color: #6B7280;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
@@ -138,13 +141,13 @@ header .row .two ul li{
     font-size: 14px;
     margin-right: 10px;
 }
-header .row .two ul li i {
+header .rox .two ul li i {
     margin-bottom: -2px;
     margin-left: 3px;
     margin-right: 3px;
     font-size: 11px;
 }
-header .row .two ul li a{
+header .rox .two ul li a{
     text-decoration: none;
     color: #6B7280;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -167,26 +170,48 @@ header .row-2 {
 }
 header  .logo {
     width: auto;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     display: flex;
     align-items: center;
     /* background-color: blue; */
 }
-header  .logo img {
-    margin-right: 30px;
+header  .logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
 }
-header  .logo input {
-    padding-right: 224%;
+header  .logo a  .star {
+    background-color: #FF9900;
+    color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+header  .logo a h1 {
+    margin-right: 35px;
+    color: black;
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+header  .logo .myinp {
+    padding-right: 220%;
     padding-left: 10px;
     /* width: 100%; */
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #F3F4F6;
     border: none;
     outline: none;
     border-radius: 5px;
 }
-header .justify {
+header .logo .justify {
     display: none;
 }
 header .second {
@@ -207,12 +232,12 @@ header  .logo i {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
+    color: grey;
 }
 header .account {
-    width: 10%;
-    /* background-color: red; */
+    width: 13%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -221,17 +246,21 @@ header .account {
 header .account span {
     display: flex;
     align-items: center;
+    padding-top: 10px;
 }
 header  .account .text {
     display: none;
 }
 header .account span i {
-    font-size: 30px;
+    font-size: 28px;
     color: #030712;
+    margin-top: -15px;
+    margin-right: -25px;
+    display: none;
 }
 header .account span ul li {
     list-style: none;
-    margin-top: -2px;
+    margin-top: -3px;
     margin-left: 3px;
 }
 header .account span ul li a { 
@@ -242,11 +271,11 @@ header .account span ul li a {
     color: #030712;
 }
 header .account span ul li a.active {
-    color: #634C9F;
+    color: #FF9900;
 }
 
 header .account span ul li a:hover {
-    color: #634C9F;
+    color: #FF9900;
 }
 header .account span ul .acc {
     color: #030712;
@@ -259,40 +288,37 @@ header .account .cart {
     display: flex;
     align-items: center;
     position: relative;
+    margin-top: -12px;
 }
-header .account .cart span {
+header .account .cart div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 20px;
     height: 20px;
-    background-color: #dc2626f3;
-    /* color: blue; */
-    color: white;
+    background-color: #FFEDD5;
+    color: #EA580C;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 12px;
     position: absolute;
-    top: -20%;
+    top: 0%;
     left: 40%;
 }
 /* row-2 div ends here  */
 
 header nav {
-    margin-top: 150px;
+    margin-top: 130px;
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    background-color: #FFFFFF;
+    /* justify-content: center; */
 }
 header nav .left {
-    width: 20%;
+    width: 18%;
     height: auto;
-    border: thin solid #E5E7EB;
     border-radius: 10px;
-    /* background-color: blue; */
+    margin-top: 15px;
 }
 header nav .left ul li {
     list-style: none;
@@ -300,9 +326,9 @@ header nav .left ul li {
     align-items: center;
     margin-top: 10px;
     padding-top: 10px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     padding-bottom: 10px;
-    border-bottom: thin solid #E5E7EB;
+    /* background-color: red; */
 }
 header nav .left ul li img {
     margin-right: 10px;
@@ -313,7 +339,7 @@ header nav .left ul li a {
     text-decoration: none;
 }
 header nav .left ul li a:hover {
-    color: #634C9F;
+    color: #FF9900;
 }
 header nav .left ul li .all {
     font-weight: bold;
@@ -326,39 +352,32 @@ header nav .left ul li i {
     align-items: center;
     margin-left: 50px;
 }
-/* header  .page {
-    display: none;
-} */
+
 header nav .right {
-    width: 75%;
+    width: 80%;
     height: auto;
-    /* padding-left: 10px; */
-    /* background-color: blanchedalmond; */
 }
 header nav .right ul {
-    padding-top: 18px;
-    padding-bottom: 11px;
-    /* padding-left: 10px; */
     display: flex;
+    justify-content: space-between;
     list-style: none;
-    border: thin solid #E5E7EB;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    padding: 0px;
+    padding-top: 28px;
+
 }
-header nav .right ul li {
-    margin-left: 20px;
-}
+
+
 header nav .right ul li a {
     text-decoration: none;
     color: #030712;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-weight: 600; */
 }
 header nav .right ul li a::after {
     content: '';
     width: 0;
     height: 1px;
-    background-color: #634C9F;
+    background-color: #FF9900;
     display: block;
     margin: auto;
     /* margin-bottom: 100px; */
@@ -370,14 +389,14 @@ header nav .right ul li a:hover::after {
     /* margin-top: 10px; */
 }
 header nav .right ul li a.active {
-    color: #634C9F;
+    color: #FF9900;
 }
 header nav .row .one ul li a.active {
     color: #634C9F;
 }
 header nav .right ul .almost {
     display: flex;
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 header nav .right ul .almost p {
     margin-left: 23px;
@@ -388,7 +407,7 @@ header nav .right ul .almost a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header nav .right ul .almost .alf {
-    color: #DC2626;
+    color: #FF9900;
     /* font-weight: bold; */
 }
 header nav .right .almost p span {
@@ -400,135 +419,49 @@ header nav .right .almost p span {
     font-size: 12px;
     background: linear-gradient(100deg, #DC2626, #EA580C);
 }
-header nav .right .Tab {
-    width: 0%;
+header nav .right .Tabpanel {
+    height:auto;
     display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+header nav .right .Tabpanel  .ik{
+    /* background-color: rgba(255, 255, 255, 0.274); */
+    background-color: #ff9900b0;
+    border-radius: 100%;
+}
+
+/* header nav ends here */
+.catego {
+    width: 98%;
+    height: auto;
+    /* background-color: red; */
     overflow-x: scroll;
 }
-header nav .right .Tabpanel {
-    width: auto;
-    height:auto;
-    background-image: url(../images/slider-03.jpg.png);
-    background-position: center;
-    background-size: cover;
-    margin: auto;
-    border-radius: 10px;
-    padding-top: 50px;
-    padding-left: 50px;
-    margin-top: 10px;
-    margin-left: 17px;
+.catego::-webkit-scrollbar {
+    display: none;
 }
-header nav .right .Tabpanel div {
-    width: 55%;
-    height: auto;
-    padding-bottom: 35px;
-}
-header nav .right .Tabpanel div h5 {
-    color: #166534;
-    margin-bottom: 20px;
-    width: 190px;
-    height: auto;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    background: linear-gradient(100deg, #4aee86, #80faad3f, #80faad00);
-}
-header nav .right .Tabpanel div h1 {
-    color: #39245F;
-    font-family: sans-serif;
-    font-size: 41px;
-    margin-bottom: 10px;
-}
-header nav .right .Tabpanel div p {
-    font-family: sans-serif;
-    margin-top: 5px;
-    font-size: 15px;
-    color: #030712;
-}
-header nav .right .Tabpanel div form {
-    margin-top: 30px;
-    display: flex;
-}
-header nav .right .Tabpanel div form button {
-    padding: 10px 25px;
+.catego ul img {
+    width: 140px;
+    height: 140px;
     border-radius: 5px;
-    font-family: sans-serif;
-    font-size: 15px;
-    border: none;
-    background-color: #634C9F;
-    color: white;
+    object-fit: cover;
 }
-header nav .right .Tabpanel div form h2 {
-    color: #DC2626;
-    /* font-family: "Encode Sans Expanded", sans-serif; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    margin-left: 10px;
+.catego ul img:hover {
+    transform: scale(1.0);
+    transition: 00.3s ease-in-out;
 }
-header nav .right .Tabpanel div form h2 span {
-    color: #030712;
-    text-decoration:line-through;
-    font-weight: lighter;
+.catego ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
 }
-header nav .right .Tabpanel div form p {
-    margin-left: 10px;
-    margin-top: -3px;
-    color: #030712;
-    font-family: "Encode Sans Expanded", sans-serif;
-}
-/* header nav ends here */
-
-.Frame {
-    width: auto;
-    height: auto;
-    background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    padding: 20px 20px;
-    /* border: thin solid #E5E7EB; */
-}
-.Frame img {
-    margin-top: 35px;
+.catego ul  li {
     margin-right: 10px;
+    list-style: none;
 }
-.Frame h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #111827;
-    font-size: 20px;
-}
-.Frame h2 p {
-    color: #6B7280;
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    font-weight: 300;
-    font-size: 15px;
-}
-.Frame .one {
-    height: auto;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-}
-.Frame .two {
-    height: auto;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-}
-.Frame .three {
-    height: auto;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-}
-.Frame .four {
-    height: auto;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-}
+
+
 /* Frame ends here */
 
 .Frame2 {
@@ -583,27 +516,30 @@ header nav .right .Tabpanel div form p {
 }
 .Frame2 .one {
     height: auto;
-    background-image: url(../images/SVG/banner-01.jpg.png);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../images/Magic-deals-male-572X250.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 40px 20px;
+    padding: 100px 20px;
 }
 .Frame2 .two {
     height: auto;
-    background-image: url(../images/SVG/banner-02.jpg.png);
+    background-image: url(../images/572X250_.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 40px 20px;
+    padding: 100px 20px;
 }
 .Frame2 .three {
     height: auto;
-    background-image: url(../images/SVG/banner-03.jpg.png);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../images/Magic-deals-male-572X250.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 40px 20px;
+    padding: 100px 20px;
 }
 /* Freame2 ends here  */
 
@@ -1332,8 +1268,10 @@ footer .right .inp form {
 footer .right .inp  div {
     display: flex;
     align-items: right;
+    justify-content: flex-end;
     overflow: hidden;
     position: relative;
+    /* background-color: red; */
 }
 footer .right .inp input {
     width: 85%;
@@ -1354,13 +1292,13 @@ footer .right .inp input::placeholder {
 footer .right .inp  i {
     position:absolute;
     bottom: 30%;
-    left: 2%;
+    left: 11%;
     color: #9CA3AF;
 }
 footer .right .inp button {
-    background-color: #634C9F;
+    background-color: #FF9900;
     color: white;
-    border: thin solid #634C9F;
+    border: thin solid #FF9900;
     padding: 14px;
     font-family: sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1368,7 +1306,7 @@ footer .right .inp button {
     border-bottom-right-radius: 5px;
     position:absolute;
     top: 0%;
-    right: 7%;
+    right: 0%;
 }
 footer .right p {
     padding-top: 10px;
@@ -1379,7 +1317,7 @@ footer .right p {
 }
 footer .right span a {
     text-decoration: none;
-    color: #634C9F;
+    color: #FF9900;
 }
 
 footer .box {
@@ -1470,7 +1408,7 @@ footer .box .five .social ul li {
     border-radius: 5px;
 }
 footer .box .five .social ul li:hover {
-    color: #634C9F;
+    color: #FF9900;
     transition: 00.5s;
     cursor: pointer;
 }
@@ -1497,7 +1435,7 @@ footer .box ul li a {
     text-decoration: none;
 }
 footer .box ul li a:hover {
-    color: #634C9F;
+    color: #FF9900;
 }
 footer .pay {
     width: auto;
@@ -1534,5 +1472,8 @@ footer .pay .list ul li a {
     color: #111827;
     font-family: sans-serif;
     font-size: 13px;
+}
+footer .pay .list ul li a:hover {
+    color: #FF9900;
 }
 /* footer ends here */
