@@ -209,7 +209,7 @@
 }
 @media only screen and (max-width: 960px) {
     header nav {
-        margin-top: 190px;
+        margin-top: 160px;
     }
     header .account {
         width: 20%;
@@ -261,24 +261,28 @@
         width: 100%;
         grid-gap: 10px;
         overflow-x: scroll;
+        padding: 0px 10px;
     }
     .Frame2::-webkit-scrollbar {
         display: block; /* Hide scrollbar for WebKit browsers */
       }
     .Frame2 .one {
-        width: 600px;
+        /* width: 600px; */
         /* background-position: left; */
         background-size: cover;
+        padding: 50px 40px;
     }
     .Frame2 .two {
-        width: 600px;
+        /* width: 600px; */
         background-position: left;
         background-size: cover;
+        padding: 50px 40px;
     }
     .Frame2 .three {
-        width: 600px;
+        /* width: 600px; */
         background-position: right;
         background-size: cover;
+        padding: 50px 40px;
     }
     .product .prod {
         width: 100%;
@@ -407,14 +411,14 @@
         font-size: 20px;
     }
     header  .logo a  .star {
-        width: 13px;
-        height: 13px;
-        justify-content: center;
+        /* width: 16px;
+        height: 16px; */
+        /* justify-content: center; */
         text-align: center;
         border-radius: 100%;
         font-size: 8px;
-        margin-top: -12px;
-        /* padding: 0px; */
+        /* margin-top: -12px; */
+        padding:4px;
     }
     header .account span img {
         margin-left: 35px;
@@ -429,10 +433,22 @@
     header nav .right .Tabpanel {
         width: auto;
         margin-left: 0px;
-        padding: 2px;
+        /* padding: 2px; */
+        /* padding-bottom: 300px; */
+    }
+    header nav .right .Tabpanel .car  {
+        width: auto;
+        margin-left: 0px;
+        /* height: 100vh !important; */
+        /* padding: 2px; */
+        /* padding-bottom: 3000px !important; */
     }
     header nav .right .Tabpanel  .ik{
         display: none;
+    }
+    .catego ul img {
+        width: 85px;
+        height: 85px;
     }
     .Frame {
         width: 95%;
