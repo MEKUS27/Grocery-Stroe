@@ -101,7 +101,7 @@
         /* background-color: red; */
         padding: 0px 5px;
     }
-    header nav .right ul {
+    header nav .right .more  {
     display: none;
     }
     header nav .right .Tabpanel {
@@ -247,6 +247,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: #F3F4F6;
+        margin-top: -15px;
         border: none;
         outline: none;
         border-radius: 5px;
@@ -446,9 +447,16 @@
     header nav .right .Tabpanel  .ik{
         display: none;
     }
+    .catego ul li {
+        /* margin-left: 0px; */
+    }
     .catego ul img {
         width: 85px;
         height: 85px;
+        /* margin-left: -55px; */
+    }
+    .catego div {
+        margin-left: -22px;
     }
     .Frame {
         width: 95%;

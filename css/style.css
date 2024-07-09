@@ -49,6 +49,7 @@ header .notification h1 {
     font-weight: 200;
     font-size: 13px;
     padding-left: 100px;
+    margin-top: 10px;
 }
 header .notification .launch-time {
     width: 40%;
@@ -359,11 +360,16 @@ header nav .right {
 }
 header nav .right ul {
     display: flex;
-    justify-content: space-between;
     list-style: none;
     padding: 0px;
     padding-top: 28px;
-
+}
+header nav .right .more {
+    display: flex;
+    justify-content: space-between;
+}
+header nav .right .more ul li {
+    margin-right: 20px;
 }
 
 
@@ -394,19 +400,21 @@ header nav .right ul li a.active {
 header nav .row .one ul li a.active {
     color: #634C9F;
 }
-header nav .right ul .almost {
+header nav .right .more .almost {
     display: flex;
-    /* margin-left: 120px; */
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 12px;
 }
-header nav .right ul .almost p {
+header nav .right .more .almost p {
     margin-left: 23px;
 }
-header nav .right ul .almost a {
+header nav .right .more .almost a {
     text-decoration: none;
     color: #030712;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-header nav .right ul .almost .alf {
+header nav .right .more .almost .alf {
     color: #FF9900;
     /* font-weight: bold; */
 }
@@ -435,26 +443,26 @@ header nav .right .Tabpanel  .ik{
 .catego {
     width: 98%;
     height: auto;
-    /* background-color: red; */
     overflow-x: scroll;
 }
 .catego::-webkit-scrollbar {
     display: none;
 }
 .catego ul img {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     border-radius: 5px;
     object-fit: cover;
 }
 .catego ul img:hover {
-    transform: scale(1.0);
-    transition: 00.3s ease-in-out;
+    transform: scale(1.1);
+    transition: 00.4s ease-in-out;
 }
 .catego ul {
     display: flex;
     justify-content: flex-start;
     padding-top: 10px;
+    /* margin-left: -10px; */
 }
 .catego ul  li {
     margin-right: 10px;
@@ -555,14 +563,18 @@ main .NewArrivals {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #E61601;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 main .NewArrivals h1 {
-    color: #030712;
+    color: #FFFFFF;
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 main .NewArrivals h1 span {
-    color: #9CA3AF;
+    color: #FFFFFF;
     font-family:  sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -576,16 +588,20 @@ main .NewArrivals  a button {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 12px;
-    color: #212529;
+    color: #FFFFEF;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #E5E7EB;
+    /* border: 1px solid #E5E7EB; */
+    border: none;
     border-radius: 20px;
-    background-color: #FFFFFF;
+    background-color: transparent;
     display: flex;
     align-items: center;
     text-decoration: none;
     cursor: pointer;
+}
+main .NewArrivals  a button i {
+    margin-left: 5px;
 }
 main .NewArrivals  a button:hover {
     border-color: #634C9F;
