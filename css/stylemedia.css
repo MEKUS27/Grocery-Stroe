@@ -82,16 +82,20 @@
     }
 } */
 @media only screen and (max-width: 1115px) {
-    
-    header .logo .justify  {
+    header  .logo .myinp {
+        padding-right: 140%;
+    }
+    header .account {
+        width: 20%;
+        padding-right: 0px;
+    }
+    header  .justify  {
         display: block;
         color: #282828;
-        margin-right: 10px;
-        padding-left: 20px;
-        font-size: 25px;
-        margin-top: -13px;
-        padding-left: 30px;
-        /* font-weight: 900; */
+        /* margin-right: 10px; */
+        font-size: 20px;
+        margin-top: -5px;
+        /* padding-left:5px; */
     }
     header nav .left {
         display: none;
@@ -209,14 +213,15 @@
 }
 @media only screen and (max-width: 960px) {
     header nav {
-        margin-top: 160px;
+        margin-top: 140px;
     }
     header .account {
-        width: 20%;
+        width: 25%;
         padding-right: 0px;
+        /* background-color: red; */
     }
     header  .row-2 {
-        padding: 10px 10px;
+        padding: 7px 7px;
     }
     header  .logo a h1 {
         font-size: 25px;
@@ -238,20 +243,25 @@
     header   .inp {
         display: block;
         margin-left: -30px;
-        color: #6B7280;
+        color: #282828;
+        margin-top: -10px;
     }
     /* header   .inp  */
     header .secondinp {
-        width: 102%;
+        width: 100%;
         padding-left: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color: #F3F4F6;
-        margin-top: -15px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        background-color: transparent;
+        border: thin solid #282828 !important;
+        margin-top: -8px;
         border: none;
         outline: none;
-        border-radius: 5px;
+        border-radius: 10px;
         display: block;
+    }
+    header .secondinp::placeholder {
+        font-size: 15px;
     }
     .Frame {
         width: 90%;
@@ -392,12 +402,13 @@
 
 @media only screen and (max-width: 680px) {
     header .notification h1 {
-        display: none;
+        font-size: 10px;
     }
     header .notification .launch-time {
         width: 100%;
         justify-content: left;
         padding-left: 10px;
+        display: none;
     }
     header .notification .launch-time p {
         font-size: 11px;
@@ -408,18 +419,21 @@
     header .notification .launch-time .sale-time li {
         font-size: 15px;
     }
+    /* header .account  {
+        background-color: red;
+    } */
+    header .account span i {
+        display: none;
+        /* margin-left: 35px; */
+    }
+    header .account  i {
+        font-size: 22px;
+    }
     header  .logo a h1 {
         font-size: 20px;
     }
     header  .logo a  .star {
-        /* width: 16px;
-        height: 16px; */
-        /* justify-content: center; */
-        text-align: center;
-        border-radius: 100%;
-        font-size: 8px;
-        /* margin-top: -12px; */
-        padding:4px;
+        display: none;
     }
     header .account span img {
         margin-left: 35px;
@@ -434,26 +448,18 @@
     header nav .right .Tabpanel {
         width: auto;
         margin-left: 0px;
-        /* padding: 2px; */
-        /* padding-bottom: 300px; */
     }
     header nav .right .Tabpanel .car  {
         width: auto;
         margin-left: 0px;
-        /* height: 100vh !important; */
-        /* padding: 2px; */
-        /* padding-bottom: 3000px !important; */
     }
     header nav .right .Tabpanel  .ik{
         display: none;
     }
-    .catego ul li {
-        /* margin-left: 0px; */
-    }
+
     .catego ul img {
         width: 85px;
         height: 85px;
-        /* margin-left: -55px; */
     }
     .catego div {
         margin-left: -22px;
@@ -483,67 +489,69 @@
         width: 100%;
     }
     main {
-        padding: 13px 10px;
+        padding: 10px 10px;
+    }
+    main .NewArrivals .time {
+        display: none;
     }
     main .NewArrivals h1 {
         font-size: 12px;
+        margin-top: 5px;
     }
     main .NewArrivals h1 span {
         display: none;
     }
     main .NewArrivals  a button {
-        padding: 7px;
+        padding: 0px;
         font-size: 11px;
     }
-    main .NewArrivals  button img {
-        margin-left: 5px;
-    }
-    main .grid article .sp {
+    main .grid .container .sp {
         width: 35px;
         height: 25px;
-        top: 10%;
-        left: -0%;
+        top: 8%;
+        /* left: -0%; */
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         font-size: 10px;
     }
-    main .grid article .image-card img {
-        width: 90px;
+    main .grid .container {
+        text-align: left;
+        padding-top: 5px;
+    }
+    main .grid .container div img {
+        width: 110px;
+        height: 110px;
         cursor:default;
     }
-    main .grid article .product-title h1 {
+    main .grid .container  h1 {
         font-size: 9px;
-    }
-    main .grid article ul li {
-        font-size: 12px;
-    }
-    main .grid article .progress  {
-        display: none;
+        text-align: left;
+        font-weight: 500;
     }
     .banner .one {
         padding-top: 20px;
         padding-left: 15px;
-        padding-right:20px;
+        padding-right:10px;
         padding-bottom: 155px;
     }
     .banner .two {
         padding-top: 20px;
         padding-left: 15px;
-        padding-right:20px;
+        padding-right:10px;
         padding-bottom: 140px;
     }
     .banner .three {
         padding-top: 20px;
         padding-left: 15px;
-        padding-right:20px;
+        padding-right:10px;
         padding-bottom: 140px;
     }
     .banner .four {
         padding-top: 20px;
         padding-left: 15px;
-        padding-right:20px;
+        padding-right:10px;
         padding-bottom: 140px;
     }
     .banner span {

@@ -212,14 +212,14 @@ header  .logo .myinp {
     outline: none;
     border-radius: 5px;
 }
-header .logo .justify {
+header  .justify {
     display: none;
 }
 header .second {
     display: flex;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 header .secondinp {
     display: none;
@@ -261,8 +261,11 @@ header .account span i {
 }
 header .account span ul li {
     list-style: none;
+}
+header .account span ul .person {
+    list-style: none;
     margin-top: -3px;
-    margin-left: 3px;
+    /* margin-left: 3px; */
 }
 header .account span ul li a { 
     text-decoration: none;
@@ -554,7 +557,7 @@ header nav .right .Tabpanel  .ik{
 main {
     width: auto;
     height: auto;
-    padding: 20px 25px;
+    padding: 10px 25px;
     background-color: #FFFFFF;
 }
 main .NewArrivals {
@@ -563,23 +566,52 @@ main .NewArrivals {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #E61601;
-    padding: 5px;
+    background-color: #E94D22;
+    padding: 10px 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 main .NewArrivals h1 {
     color: #FFFFFF;
-    font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
 }
 main .NewArrivals h1 span {
-    color: #FFFFFF;
+    color: #ffffffb2;
     font-family:  sans-serif;
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 1px;
     margin-left: 2px;
+    display: none;
+}
+main .NewArrivals .time {
+    display: flex;
+    /* align-items: center; */
+    color: white;
+    padding-top: 15px;
+}
+main .NewArrivals .time p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-left: 10px;
+}
+main .NewArrivals .time ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: -33px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+main .NewArrivals .time ul div{
+    display: flex;
+    font-weight: 500;
+}
+main .NewArrivals .time ul div li {
+    margin-left: 10px;
 }
 main .NewArrivals  a {
     text-decoration: none;
@@ -587,13 +619,9 @@ main .NewArrivals  a {
 main .NewArrivals  a button {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
     color: #FFFFEF;
-    padding: 10px;
-    margin-top: 5px;
-    /* border: 1px solid #E5E7EB; */
     border: none;
-    border-radius: 20px;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -603,37 +631,56 @@ main .NewArrivals  a button {
 main .NewArrivals  a button i {
     margin-left: 5px;
 }
-main .NewArrivals  a button:hover {
-    border-color: #634C9F;
-    transition: 0.4s;
-}
-main .NewArrivals  button img {
-    margin-left: 10px;
-}
 main .grid {
     width: auto;
     height: auto;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* border: thin solid #E5E7EB; */
+    border-top: none;
     border-radius: 10px;
     overflow-x: scroll;
+    /* background-color: red; */
 }
 
-/* main .grid::-webkit-scrollbar{
+main .grid::-webkit-scrollbar{
     display: none;
-} */
-main .grid article {
+}
+main .grid .container {
     height: auto;
-    padding: 10px;
+    /* padding: 10px; */
     position: relative;
     border-top: none;
+    /* background-color: red; */
+    border: thin solid #E5E7EB;
+    border-top: none;
+    border-right: none;
 }
-main .grid article .sp  {
+main .grid .container div img {
+    width: 150px;
+    text-align: left;
+    margin-left: -15px;
+}
+main .grid .container h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+main .grid .container p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    text-decoration:double line-through;
+}
+main .grid .container .flash-sale-price {
+    display: flex;
+    /* align-items: center; */
+}
+main .grid .container  .sp  {
     position: absolute;
-    top: 4%;
-    left: 4%;
+    top: 10%;
+    right: 3%;
     width: 40px;
     height: 28px;
     /* border-radius: 10%; */
@@ -649,103 +696,22 @@ main .grid article .sp  {
     font-smooth: 300px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-main .grid article .image-card img {
-    width: 101px;
-    cursor:default;
+section .NewArrivals {
+    background-color: transparent;
 }
-main .grid article .image-card {
-    text-align: center;
-    padding-top: 20px;
+section .NewArrivals h1 {
+    color: #282828;
+    font-size: 15px;
 }
-main .grid article .ig {
-    margin-top: -5px;
-}
-main .grid article .ig img {
-    width: 60px;
-}
-main .grid article .product-title {
-    position: relative;
-}
-main .grid article .product-title h1 {
-    margin-top: 0px;
-    font-size: 10px;
-    color: #030712;
-    font-smooth: 100px;
-    /* font-weight: 900; */
-    font-family: sans-serif;
-}
-main .grid article .product-title div {
-    top: -290%;
-    left: 90%;
-    position:absolute;
-    background-color: #634C9F;
+main .NewArrivals  a button {
     color: white;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
 }
-main .grid article ul {
-    display: flex;
-    margin-top: 1px;
+main section .NewArrivals  a button {
+    color: #282828;
+    border-color: #282828;
 }
-main .grid article ul li {
-    list-style: none;
-    margin-right: 6px;
-    color: #FACC15;
-    font-size: 13px;
-}
-main .grid article .product-description {
-    display: none;
-}
-main .grid article .product-price {
-    padding-top: 1px;
-    display: flex;
-    align-items: center;
-   
-}
-main .grid article .product-price p {
-    color: #DC2626;
-    font-family: "Encode Sans Expanded", sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-}
-main .grid article .product-price span {
-    text-decoration: line-through;
-    font-family: "Encode Sans Expanded", sans-serif;
-    font-weight: 500;
-    margin-left: 5px;
-    font-size: 11px;
-}
-main .grid article a {
-    text-decoration: none;
-}
-main .grid article a button {
-    padding: 5px;
-    background-color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    font-size: 12px;
-    color: #634C9F;
-    border: thin solid #634C9F;
-    border-radius: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    cursor: pointer;
-}
-main .grid article a button i {
-    margin-left: 8px;
-    font-size: 14px;
-}
-main .grid article .progress {
-    margin-top: -5px;
-    /* width: 60px; */
-}
+
+
 /* main ends here */
 
 .banner {
@@ -754,7 +720,7 @@ main .grid article .progress {
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
     padding: 0px 20px;
     /* margin-bottom: 30px; */
 }
@@ -768,7 +734,7 @@ main .grid article .progress {
     font-family:  sans-serif;
     font-smooth: always;
     color: #111827;
-    font-size: 16px;
+    font-size: 19px;
     margin-top: 10px;
 }
 .banner p {
