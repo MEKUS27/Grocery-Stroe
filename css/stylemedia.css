@@ -405,7 +405,7 @@
 
 @media only screen and (max-width: 680px) {
     header .notification {
-        padding: 3px;
+        padding: 5px;
     }
     header .notification h1 {
         font-size: 10px;
