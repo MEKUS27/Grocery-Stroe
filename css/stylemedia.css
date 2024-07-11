@@ -216,9 +216,8 @@
         margin-top: 140px;
     }
     header .account {
-        width: 25%;
+        width:31%;
         padding-right: 0px;
-        /* background-color: red; */
     }
     header  .row-2 {
         padding: 7px 7px;
@@ -261,7 +260,7 @@
         display: block;
     }
     header .secondinp::placeholder {
-        font-size: 15px;
+        font-size: 14px;
     }
     .Frame {
         width: 90%;
@@ -401,8 +400,13 @@
 }
 
 @media only screen and (max-width: 680px) {
+    header .notification {
+        padding: 5px;
+    }
     header .notification h1 {
         font-size: 10px;
+        font-weight: 500;
+        padding-left: 3px;
     }
     header .notification .launch-time {
         width: 100%;
@@ -419,15 +423,11 @@
     header .notification .launch-time .sale-time li {
         font-size: 15px;
     }
-    /* header .account  {
-        background-color: red;
-    } */
     header .account span i {
         display: none;
-        /* margin-left: 35px; */
     }
     header .account  i {
-        font-size: 22px;
+        font-size: 23px;
     }
     header  .logo a h1 {
         font-size: 20px;
@@ -435,16 +435,20 @@
     header  .logo a  .star {
         display: none;
     }
-    header .account span img {
-        margin-left: 35px;
-    }
     header .account span ul li a {
         display: none;
+    }
+    header .account span i {
+        margin-right: 0px;
+        font-size: 23px;
+    }
+    header .account span  .person {
+        display: block;
+        margin-top: -20px;
     }
     header nav .right {
         width: 100%;
     }
-    
     header nav .right .Tabpanel {
         width: auto;
         margin-left: 0px;
@@ -463,6 +467,9 @@
     }
     .catego div {
         margin-left: -22px;
+    }
+    main .grid .container {
+        border: none;
     }
     .Frame {
         width: 95%;

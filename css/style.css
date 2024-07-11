@@ -26,9 +26,6 @@ header .notification {
     align-items: center;
     justify-content: space-between;
     background-color: #FF9900;
-    /* padding: 10px 0; */
-    /* position: fixed; */
-    /* z-index: 99; */
 }
 header .hole {
     position: fixed;
@@ -171,10 +168,8 @@ header .row-2 {
 }
 header  .logo {
     width: auto;
-    /* background-color: #FFFFFF; */
     display: flex;
     align-items: center;
-    /* background-color: blue; */
 }
 header  .logo a {
     text-decoration: none;
@@ -265,7 +260,6 @@ header .account span ul li {
 header .account span ul .person {
     list-style: none;
     margin-top: -3px;
-    /* margin-left: 3px; */
 }
 header .account span ul li a { 
     text-decoration: none;
@@ -316,7 +310,6 @@ header nav {
     width: 100%;
     height: auto;
     display: flex;
-    /* justify-content: center; */
 }
 header nav .left {
     width: 18%;
@@ -330,9 +323,7 @@ header nav .left ul li {
     align-items: center;
     margin-top: 10px;
     padding-top: 10px;
-    /* padding-left: 10px; */
     padding-bottom: 10px;
-    /* background-color: red; */
 }
 header nav .left ul li img {
     margin-right: 10px;
@@ -636,12 +627,10 @@ main .grid {
     height: auto;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* margin-top: 10px; */
-    /* border: thin solid #E5E7EB; */
+    grid-gap: 20px;
     border-top: none;
     border-radius: 10px;
     overflow-x: scroll;
-    /* background-color: red; */
 }
 
 main .grid::-webkit-scrollbar{
@@ -649,18 +638,20 @@ main .grid::-webkit-scrollbar{
 }
 main .grid .container {
     height: auto;
-    /* padding: 10px; */
     position: relative;
     border-top: none;
-    /* background-color: red; */
-    border: thin solid #E5E7EB;
+    /* border: thin solid #E5E7EB; */
     border-top: none;
     border-right: none;
+    /* background-color: red; */
+    /* padding-left: 0px; */
+    padding-right: 0px;
+    /* box-shadow: 10px 50px 10px rgba(128, 128, 128, 0.616); */
 }
 main .grid .container div img {
-    width: 150px;
+    width: 140px;
     text-align: left;
-    margin-left: -15px;
+    margin-left: -10px;
 }
 main .grid .container h1 {
     font-family: "Roboto", sans-serif;
@@ -701,6 +692,7 @@ section .NewArrivals {
 }
 section .NewArrivals h1 {
     color: #282828;
+    /* color: white; */
     font-size: 15px;
 }
 main .NewArrivals  a button {
@@ -708,6 +700,7 @@ main .NewArrivals  a button {
 }
 main section .NewArrivals  a button {
     color: #282828;
+    /* color: white; */
     border-color: #282828;
 }
 
