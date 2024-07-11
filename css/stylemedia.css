@@ -407,7 +407,7 @@
 
 @media only screen and (max-width: 680px) {
     header .notification {
-        padding: 3px 16px;
+        padding: 3px 11px;
         /* background-color: red; */
     }
     header .notification h1 {
@@ -417,10 +417,10 @@
         display: block;
     }
     header .row-2  {
-        padding: 3px 21px;
+        padding: 3px 15px;
     }
     header .second {
-        padding: 0px 20px;
+        padding: 5px 15px;
     }
     header .notification .launch-time {
         width: 100%;
@@ -467,7 +467,7 @@
     header nav .right .Tabpanel {
         width: auto;
         margin-left: 0px;
-        padding: 0px 20px;
+        padding: 0px 15px;
         /* border-radius: 10px; */
     }
     header nav .right .Tabpanel .caruo {
@@ -475,7 +475,7 @@
     }
     .catego {
         width: 94%;
-        padding: 0px 15px;
+        padding: 0px 13px;
     }
     header nav .right .Tabpanel .car  {
         width: auto;
@@ -493,7 +493,7 @@
         margin-left: -22px;
     }
     .Frame2 {
-        padding: 0px 20px;
+        padding: 0px 15px;
     }
     main .grid .container {
         border: none;
@@ -516,7 +516,7 @@
         width: 100%;
     }
     main {
-        padding: 10px 20px;
+        padding: 10px 15px;
     }
     main .NewArrivals .time {
         display: none;
@@ -560,8 +560,8 @@
     .banner {
         width: auto;
         /* background-color: red; */
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
         padding: 0px 0px;
     }
     .banner .one {
@@ -593,6 +593,7 @@
     }
     .banner h1 {
         font-size: 20px;
+        font-weight: 600;
     }
     .banner p {
         font-size: 12px;
@@ -664,7 +665,10 @@
         font-size: 12px;
     }
     .compaines {
-        padding: 10px 10px;
+        padding: 10px 15px;
+    }
+    .compaines .NewArrivals {
+        padding: 5px 15px;
     }
     .compaines .NewArrivals h1 {
         font-size: 12px;
