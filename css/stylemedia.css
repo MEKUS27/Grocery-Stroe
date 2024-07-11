@@ -359,7 +359,7 @@
         margin-left: 0px;
     }
     .device {
-        display: block;
+        display: none;
     }
     
     .Frame {
@@ -406,17 +406,17 @@
 @media only screen and (max-width: 680px) {
     
     header .notification h1 {
-        font-size: 10px;
+        font-size: 9px;
         font-weight: 500;
         padding-left: 3px;
-        display: none;
+        display: block;
     }
     header .notification .launch-time {
         width: 100%;
         justify-content: flex-start;
         padding-left: 10px;
-        display: block;
-        display: flex;
+        display: none;
+        /* display: flex; */
     }
     header .notification .launch-time p {
         font-size: 11px;
