@@ -129,16 +129,17 @@
         display: none;
     }
     .banner .one {
-        width: 230px;
+        width: 250px;
+        /* padding-right: ; */
     }
     .banner .two {
-        width: 230px;
+        width: 250px;
     }
     .banner .three {
-        width: 230px;
+        width: 250px;
     }
     .banner .four {
-        width: 230px;
+        width: 250px;
     }
     .iner {
         padding: 0px 10px;
@@ -357,6 +358,9 @@
         width: auto;
         margin-left: 0px;
     }
+    .device {
+        display: block;
+    }
     
     .Frame {
         width: 95%;
@@ -400,25 +404,25 @@
 }
 
 @media only screen and (max-width: 680px) {
-    header .notification {
-        padding: 5px;
-    }
+    
     header .notification h1 {
         font-size: 10px;
         font-weight: 500;
         padding-left: 3px;
+        display: none;
     }
     header .notification .launch-time {
         width: 100%;
-        justify-content: left;
+        justify-content: flex-start;
         padding-left: 10px;
-        display: none;
+        display: block;
+        display: flex;
     }
     header .notification .launch-time p {
         font-size: 11px;
     }
     header .notification .launch-time .sale-time {
-        margin-left: 30px;
+        margin-left: 25px;
     }
     header .notification .launch-time .sale-time li {
         font-size: 15px;
@@ -778,14 +782,12 @@
         font-size: 12px;
     }
     header .notification .launch-time .sale-time div {
-        width: 40px;
-        
+        width: 45px;
     }
     header .notification .launch-time .sale-time {
         display: flex;
     }
     header .account div img {
-        /* display: none; */
         width: 23px;
     }
     header .account div ul {

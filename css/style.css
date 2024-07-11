@@ -286,7 +286,7 @@ header .account .cart {
     display: flex;
     align-items: center;
     position: relative;
-    margin-top: -12px;
+    /* margin-top: -12px; */
 }
 header .account .cart div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -300,8 +300,9 @@ header .account .cart div {
     align-items: center;
     font-size: 12px;
     position: absolute;
-    top: 0%;
+    top: -30%;
     left: 40%;
+    /* display: none; */
 }
 /* row-2 div ends here  */
 
@@ -627,10 +628,11 @@ main .grid {
     height: auto;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
     border-top: none;
     border-radius: 10px;
     overflow-x: scroll;
+    padding-top: 2px;
 }
 
 main .grid::-webkit-scrollbar{
@@ -647,6 +649,9 @@ main .grid .container {
     /* padding-left: 0px; */
     padding-right: 0px;
     /* box-shadow: 10px 50px 10px rgba(128, 128, 128, 0.616); */
+}
+ .device {
+    display: none;
 }
 main .grid .container div img {
     width: 140px;
