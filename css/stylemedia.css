@@ -121,7 +121,9 @@
         /* overflow-x: scroll; */
     } 
     .banner {
-        padding: 0px 10px;
+        width: 95%;
+        /* padding: 0px 10px; */
+        /* padding-left: 10px; */
         /* width: ; */
         overflow-x: scroll;
     }
@@ -129,17 +131,17 @@
         display: none;
     }
     .banner .one {
-        width: 250px;
+        width:320px;
         /* padding-right: ; */
     }
     .banner .two {
-        width: 250px;
+        width:320px;
     }
     .banner .three {
-        width: 250px;
+        width:320px;
     }
     .banner .four {
-        width: 250px;
+        width:320px;
     }
     .iner {
         padding: 0px 10px;
@@ -257,7 +259,7 @@
         margin-top: -8px;
         border: none;
         outline: none;
-        border-radius: 10px;
+        border-radius: 8px;
         display: block;
     }
     header .secondinp::placeholder {
@@ -405,13 +407,20 @@
 
 @media only screen and (max-width: 680px) {
     header .notification {
-        padding: 5px;
+        padding: 3px 16px;
+        /* background-color: red; */
     }
     header .notification h1 {
         font-size: 10px;
         font-weight: 500;
         /* padding-left: 10px; */
         display: block;
+    }
+    header .row-2  {
+        padding: 3px 21px;
+    }
+    header .second {
+        padding: 0px 20px;
     }
     header .notification .launch-time {
         width: 100%;
@@ -458,6 +467,15 @@
     header nav .right .Tabpanel {
         width: auto;
         margin-left: 0px;
+        padding: 0px 20px;
+        /* border-radius: 10px; */
+    }
+    header nav .right .Tabpanel .caruo {
+        border-radius: 5px !important;
+    }
+    .catego {
+        width: 94%;
+        padding: 0px 15px;
     }
     header nav .right .Tabpanel .car  {
         width: auto;
@@ -474,15 +492,11 @@
     .catego div {
         margin-left: -22px;
     }
+    .Frame2 {
+        padding: 0px 20px;
+    }
     main .grid .container {
         border: none;
-    }
-    .Frame {
-        width: 95%;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        overflow-x: scroll;
-        grid-gap: 20px;
-        padding: 10px 10px;
     }
     .Frame::-webkit-scrollbar {
         display: none; /* Hide scrollbar for WebKit browsers */
@@ -502,7 +516,7 @@
         width: 100%;
     }
     main {
-        padding: 10px 10px;
+        padding: 10px 20px;
     }
     main .NewArrivals .time {
         display: none;
@@ -543,38 +557,46 @@
         text-align: left;
         font-weight: 500;
     }
+    .banner {
+        width: auto;
+        /* background-color: red; */
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 0px 0px;
+    }
     .banner .one {
         padding-top: 20px;
         padding-left: 15px;
-        padding-right:10px;
-        padding-bottom: 155px;
+        /* padding-right:10px; */
+        padding-bottom: 100px;
     }
     .banner .two {
         padding-top: 20px;
         padding-left: 15px;
-        padding-right:10px;
-        padding-bottom: 140px;
+        /* padding-right:10px; */
+       padding-bottom: 100px;
     }
     .banner .three {
         padding-top: 20px;
         padding-left: 15px;
-        padding-right:10px;
-        padding-bottom: 140px;
+        /* padding-right:10px; */
+       padding-bottom: 100px;
     }
     .banner .four {
         padding-top: 20px;
         padding-left: 15px;
-        padding-right:10px;
-        padding-bottom: 140px;
+        /* padding-right:10px; */
+       padding-bottom: 100px;
     }
     .banner span {
         font-size: 11px;
     }
     .banner h1 {
-        font-size: 15px;
+        font-size: 20px;
     }
     .banner p {
         font-size: 12px;
+        margin-top: -10px;
     }
     .banner a button {
         padding: 8px;
