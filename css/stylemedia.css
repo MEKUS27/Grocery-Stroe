@@ -563,6 +563,7 @@
         margin-left: 20px;
         margin-right: 20px;
         padding: 0px 0px;
+        display: none;
     }
     .banner .one {
         padding-top: 20px;
