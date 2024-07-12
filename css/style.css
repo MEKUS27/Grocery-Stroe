@@ -322,7 +322,6 @@ header nav .left ul li {
     list-style: none;
     display: flex;
     align-items: center;
-    /* margin-top: 10px; */
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -330,10 +329,7 @@ header nav .left ul li img {
     margin-right: 10px;
 }
 header nav .left ul li i {
-    margin-right:10px;
-    /* font-weight: 900 !important; */
-    font-size: 20px !important;
-    /* color: red !important; */
+    margin-right: 10px;
 }
 header nav .left ul li a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -352,6 +348,7 @@ header nav .left ul li i {
     font-size: 13px;
     display: flex;
     align-items: center;
+    font-size: 20px !important;
     /* margin-left: 50px; */
 }
 
@@ -364,15 +361,12 @@ header nav .right ul {
     list-style: none;
     padding: 0px;
     padding-top: 28px;
-    display: none;
 }
 header nav .right .more {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
-header nav .right .more ul li {
-    /* margin-right: 20px; */
-}
+
 
 
 header nav .right ul li a {
@@ -380,6 +374,7 @@ header nav .right ul li a {
     color: #030712;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* font-weight: 600; */
+    display: none;
 }
 header nav .right ul li a::after {
     content: '';
@@ -411,6 +406,7 @@ header nav .right .more .almost {
 header nav .right .more .almost .p {
     margin-left: 23px;
 }
+
 header nav .right .more .almost a {
     text-decoration: none;
     color: #030712;
@@ -649,16 +645,16 @@ main .grid .container {
     height: auto;
     position: relative;
     border-top: none;
-    /* border: thin solid #E5E7EB; */
     border-top: none;
     border-right: none;
-    /* background-color: red; */
-    /* padding-left: 0px; */
     padding-right: 0px;
-    /* box-shadow: 10px 50px 10px rgba(128, 128, 128, 0.616); */
 }
  .device {
-    display: none;
+    display: block;
+}
+
+.device .grid {
+    padding-top: 10px;
 }
 main .grid .container div img {
     width: 140px;
@@ -700,10 +696,10 @@ main .grid .container  .sp  {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 section .NewArrivals {
-    background-color: transparent;
+    background-color: #E94D22;
 }
 section .NewArrivals h1 {
-    color: #282828;
+    color: white;
     /* color: white; */
     font-size: 15px;
 }
@@ -711,113 +707,12 @@ main .NewArrivals  a button {
     color: white;
 }
 main section .NewArrivals  a button {
-    color: #282828;
-    /* color: white; */
-    border-color: #282828;
+    color: white;
 }
 
 
 /* main ends here */
 
-.banner {
-    width: auto;
-    height: auto;
-    background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    padding: 0px 20px;
-    /* margin-bottom: 30px; */
-    display: none;
-}
-.banner span {
-    color: #EA580C;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-}
-.banner h1 {
-    font-family:  sans-serif;
-    font-smooth: always;
-    color: #111827;
-    font-size: 19px;
-    margin-top: 10px;
-}
-.banner p {
-    color: #6B7280;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* font-weight: 300; */
-    font-size: 15px;
-}
-.banner a {
-    text-decoration: none;
-}
-.banner a button {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    color: #212529;
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #E5E7EB;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-.banner a button:hover {
-    border-color: #EA580C;
-    transition: 0.5s;
-}
-.banner button img {
-    margin-left: 20px;
-}
-.banner .one {
-    height: auto;
-    background-image: url(../images/SVG/banner-04.jpg.png);
-    background-position: bottom;
-    background-size: cover;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-bottom: 220px;
-    border-radius: 7px;
-}
-.banner .two {
-    height: auto;
-    background-image: url(../images/SVG/banner-05.jpg.png);
-    background-position: bottom;
-    background-size: cover;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-bottom: 220px;
-    border-radius: 7px;
-}
-.banner .three {
-    height: auto;
-    background-image: url(../images/SVG/banner-06.jpg.png);
-    background-position: bottom;
-    background-size: cover;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-bottom: 220px;
-    border-radius: 7px;
-}
-.banner .four {
-    height: auto;
-    background-image: url(../images/SVG/banner-07.jpg.png);
-    background-position: bottom;
-    background-size: cover;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-bottom: 220px;
-    border-radius: 7px;
-}
 /* banner ends here */
 .deals {
     width: 100%;

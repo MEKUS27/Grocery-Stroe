@@ -367,7 +367,7 @@
         margin-left: 0px;
     }
     .device {
-        display: none;
+        display: block;
     }
     
     .Frame {
@@ -499,13 +499,31 @@
         margin-left: -22px;
     }
     .deals {
-        display: block;
+        display: none;
     }
     .deals .NewArrivals  {
         background-color: #E94D22;
+        justify-content: flex-start;
+        padding-left: 10px;
+
+    }
+    .deals .mor .NewArrivals  {
+        justify-content: flex-start;
+        padding-left: 10px;
+
+    }
+    .deals .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .main .grid   img {
+        width: 10px;
     }
     .deals .NewArrivals h1 {
-        font-size: 12px;
+        font-size: 13px;
+        color: white;
+    }
+    .deals .mor  .NewArrivals h1 {
+        font-size: 13px;
         color: white;
     }
     .deals .NewArrivals i {
@@ -522,32 +540,14 @@
     .deals .grid .container p {
             font-size: 12px;
     }
-    .Frame2 {
-        padding: 0px 15px;
-    }
+
     main .grid .container {
         border: none;
     }
     .cloths {
         display: block;
     }
-    .Frame::-webkit-scrollbar {
-        display: none; /* Hide scrollbar for WebKit browsers */
-      }
-    .Frame img {
-        margin-top: 15px;
-        width: 40px;
-    }
-    .Frame h2  {
-        width: 200px;
-        font-size: 15px;
-    }
-    .Frame h2 p {
-        font-size: 12px;
-    }
-    .Frame .one {
-        width: 100%;
-    }
+  
     main {
         padding: 10px 15px;
     }
@@ -590,158 +590,7 @@
         text-align: left;
         font-weight: 500;
     }
-    .banner {
-        width: auto;
-        /* background-color: red; */
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 0px 0px;
-        display: none;
-    }
-    .banner .one {
-        padding-top: 20px;
-        padding-left: 15px;
-        /* padding-right:10px; */
-        padding-bottom: 100px;
-    }
-    .banner .two {
-        padding-top: 20px;
-        padding-left: 15px;
-        /* padding-right:10px; */
-       padding-bottom: 100px;
-    }
-    .banner .three {
-        padding-top: 20px;
-        padding-left: 15px;
-        /* padding-right:10px; */
-       padding-bottom: 100px;
-    }
-    .banner .four {
-        padding-top: 20px;
-        padding-left: 15px;
-        /* padding-right:10px; */
-       padding-bottom: 100px;
-    }
-    .banner span {
-        font-size: 11px;
-    }
-    .banner h1 {
-        font-size: 20px;
-        font-weight: 600;
-    }
-    .banner p {
-        font-size: 12px;
-        margin-top: -10px;
-    }
-    .banner a button {
-        padding: 8px;
-        font-size: 11px;
-    }
-    .banner button img {
-        margin-left: 4px;
-    }
-    .product {
-        padding: 10px 10px;
-    }
-    .product .NewArrivals h1 {
-        font-size: 12px;
-    }
-    .product .NewArrivals h1 span {
-        display: none;
-    }
-    .product .NewArrivals  a button {
-        padding: 7px;
-        font-size: 11px;
-    }
-    .product .NewArrivals  button img {
-        margin-left: 5px;
-    }
-    .product .prod h1 {
-        font-size: 12px;
-        font-family: sans-serif;
-        font-smooth: 100px;
-    }
-    .product .prod .img img {
-        width: 60px;
-    }
-    .iner .left {
-        padding-left: 10px;
-    }
-    .iner .right {
-        padding-left: 10px;
-    }
-    .iner span {
-        font-size: 11px;
-    }
-    .iner h1 {
-        font-size: 22px;
-    }
-    .iner p {
-        font-size: 13px;
-        margin-top: -11px;
-    }
-    .iner a button {
-        padding: 8px;
-        font-size: 12px;
-    }
-    .iner button img {
-        margin-left: 5px;
-    }
-    .promo {
-        margin-top: 20px;
-        margin-bottom: 10px;
-        padding: 15px;
-    }
-    .promo h1 {
-        font-size: 15px;
-    }
-    .promo  p {
-        font-size: 12px;
-    }
-    .compaines {
-        padding: 10px 15px;
-    }
-    .compaines .NewArrivals {
-        padding: 5px 15px;
-    }
-    .compaines .NewArrivals h1 {
-        font-size: 13px;
-        font-family: sans-serif;
-    }
-    .compaines .NewArrivals h1 span {
-        display: none;
-    }
-    .compaines .NewArrivals  a button {
-        padding: 7px;
-        font-size: 12px;
-    }
-    .compaines .NewArrivals  button img {
-        margin-left: 5px;
-    }
-    .compaines .com .ig img {
-        width: 40px;
-    }
-    .compaines .com .ig div {
-        padding-left: 8px;
-
-    }
-    .compaines .com .ig h1 {
-        font-size: 11px;
-        font-family: sans-serif;
-        padding-top: 2px;
-    }
-    .compaines .com .ig p {
-        font-size: 10px;
-        color: #6B7280;
-        margin-top: -15px;
-        padding-bottom: 2px;
-    }
-    .compaines .com .ig ul i {
-        font-size: 9px;
-    }
-    .compaines .com p {
-        font-size: 10px;
-    }
+  
     footer {
         padding-bottom: 5px;
     }
