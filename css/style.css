@@ -817,12 +817,29 @@ main section .NewArrivals  a button {
     height: auto;
     padding: 10px 20px;
 }
+.deals .mor .NewArrivals {
+    padding: 3px 0px;
+    background-color: #276076;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deals .mor .NewArrivals h1 {
+    color: white;
+    /* color: white; */
+    font-size: 18px;
+    margin-left: 5px;
+    padding-top: 10px;
+}
 .deals .NewArrivals {
     padding: 3px 0px;
     background-color: #E7BBC2;
     text-align: center;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -838,7 +855,7 @@ main section .NewArrivals  a button {
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding: 5px;
+    padding: 10px;
     padding-left: 0px;
     /* background-color: red; */
     margin-left: -10px;
@@ -847,7 +864,7 @@ main section .NewArrivals  a button {
     text-align: center;
 }
 .deals .grid img {
-    width: 167px;
+    width: 166px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
