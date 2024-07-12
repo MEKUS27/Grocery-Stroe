@@ -499,7 +499,7 @@
         margin-left: -22px;
     }
     .deals {
-        display: none;
+        display: block;
     }
     .deals .NewArrivals  {
         background-color: #E94D22;
@@ -529,7 +529,7 @@
         border: none;
     }
     .cloths {
-        display: none;
+        display: block;
     }
     .Frame::-webkit-scrollbar {
         display: none; /* Hide scrollbar for WebKit browsers */
