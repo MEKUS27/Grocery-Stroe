@@ -512,6 +512,20 @@
         padding-left: 10px;
 
     }
+    section .NewArrivals {
+        background-color: #276076;
+    }
+    section .NewArrivals h1 {
+        color: white;
+        /* color: white; */
+        font-size: 15px;
+    }
+    main .NewArrivals  a button {
+        color: white;
+    }
+    main section .NewArrivals  a button {
+        color: white;
+    }
     .deals .grid {
         grid-template-columns: 1fr 1fr 1fr;
     }

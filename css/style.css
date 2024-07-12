@@ -771,6 +771,83 @@ main section .NewArrivals  a button {
     border-top-left-radius: 5px;
 }
 
+.Frame3 {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+
+}
+.Frame3 span {
+    color: #EA580C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Frame3 h1 {
+    font-family:  sans-serif;
+    color: #111827;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.Frame3 p {
+    color: #6B7280;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: 300; */
+    font-size: 15px;
+}
+.Frame3 a {
+    text-decoration: none;
+}
+.Frame3 a button {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #212529;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Frame3 button img {
+    margin-left: 10px;
+}
+.Frame3 .one {
+    height: auto;
+    background-image: url(../images/1152-x-252.gif);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 100px 20px;
+}
+.Frame3 .two {
+    height: auto;
+    background-image: url(../images/Desktop_MLP_Slider__1168x384.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 100px 20px;
+}
+.Frame3 .three {
+    height: auto;
+    background-image: url(../images/Desktop_MLP_Slider__1168x384.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 100px 20px;
+}
 
 
 
