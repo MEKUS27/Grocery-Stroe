@@ -322,12 +322,18 @@ header nav .left ul li {
     list-style: none;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding-top: 10px;
     padding-bottom: 10px;
 }
 header nav .left ul li img {
     margin-right: 10px;
+}
+header nav .left ul li i {
+    margin-right:10px;
+    /* font-weight: 900 !important; */
+    font-size: 20px !important;
+    /* color: red !important; */
 }
 header nav .left ul li a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -346,7 +352,7 @@ header nav .left ul li i {
     font-size: 13px;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 header nav .right {
@@ -358,13 +364,14 @@ header nav .right ul {
     list-style: none;
     padding: 0px;
     padding-top: 28px;
+    display: none;
 }
 header nav .right .more {
     display: flex;
     justify-content: space-between;
 }
 header nav .right .more ul li {
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 
@@ -398,10 +405,10 @@ header nav .row .one ul li a.active {
 header nav .right .more .almost {
     display: flex;
     align-items: center;
-    margin-left: 120px;
+    /* margin-left: 120px; */
     margin-top: 12px;
 }
-header nav .right .more .almost p {
+header nav .right .more .almost .p {
     margin-left: 23px;
 }
 header nav .right .more .almost a {
@@ -870,170 +877,9 @@ main section .NewArrivals  a button {
 }
 
 
-/* iner ends here */
 
 
 
-.promo {
-    width: auto;
-    height: auto;
-    padding: 20px;
-    /* padding-bottom: 10px; */
-    background-image: url(../images/SVG/div.site-promo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    margin-bottom: 30px;
-    margin-top: 40px;
-}
-.promo h1 {
-    color: #EA580C;
-    font-size: 22px;
-    font-weight: bolder;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.promo  p{
-    color: #6B7280;
-    font-size: 14px;
-    /* font-weight: bolder; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-/* promo ends here */
-
-.compaines {
-    width: auto;
-    height: auto;
-    background-color: #FFFFFF;
-    padding: 20px 25px;
-    margin-bottom: 5px;
-}
-.compaines .NewArrivals {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    background-color: #E94D22;
-    padding: 5px 5px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
-.compaines  .NewArrivals h1 {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-}
-.compaines .NewArrivals h1 span {
-    color: #9CA3AF;
-    font-family:  sans-serif;
-    /* font-weight: 400; */
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin-left: 2px;
-}
-.compaines .NewArrivals  a {
-    text-decoration: none;
-}
-.compaines .NewArrivals  a button {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 11px;
-    color: #FFFFEF;
-    border: none;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-.compaines .NewArrivals  a button:hover {
-    border-color: #634C9F;
-    transition: 0.5s;
-}
-.compaines .NewArrivals  button img {
-    margin-left: 10px;
-}
-.compaines .com {
-    width: 100%;
-    display: grid;
-    height: auto;
-    background-color: transparent;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
-    /* grid-gap: 10px; */
-    overflow-x: scroll;
-    /* padding: 10px 0; */
-    padding-bottom: 15px;
-}
-.compaines .com::-webkit-scrollbar {
-    display: none;
-}
-
- 
-.compaines .com .ig {
-    display: flex;
-    align-items: center;
-    padding: 0px 5px;
-}
-.compaines .com .ig img {
-    width: 50px;
-    border-radius: 5px;
-}
-.compaines .com .ig div {
-    /* padding-top: 20px; */
-    padding-left: 10px;
-    /* background-color: red; */
-}
-.compaines .com .ig h1 {
-    color: #030712;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 13px;
-    margin-top: 0px;
-}
-.compaines .com .ig p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    color: #6B7280;
-    margin-top: -10px;
-    padding-bottom: 2px;
-}
-.compaines .com .ig ul {
-    display: flex;
-}
-.compaines .com .ig ul i {
-    font-size: 11px;
-    /* margin-top: 20px; */
-    margin-right: 4px;
-    color: #FACC15;
-}
-.compaines .com .ig ul .star {
-    color: #D1D5DB;
-}
-.compaines .com p {
-    color: #030712;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    padding-top: 15px;
-}
-.com .one {
-    width: auto;
-    height: auto;
-    background-color: transparent;
-}
-.com .two {
-    height: auto;
-    background-color: transparent;
-}
-.com .three {
-    height: auto;
-    background-color: transparent;
-}
-.com .four {
-    height: auto;
-    background-color: transparent;
-}
 footer {
     width: auto;
     height: auto;
