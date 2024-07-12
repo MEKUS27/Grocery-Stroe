@@ -185,6 +185,9 @@
         padding-left: 0px;
         /* background-color: red; */
     }
+    .deals .grid {
+        overflow-x: scroll;
+    }
 }
 
 @media only screen and (max-width: 1029px) {
@@ -492,11 +495,30 @@
     .catego div {
         margin-left: -22px;
     }
+    .deals .NewArrivals h1 {
+        font-size: 12px;
+    }
+    .deals .NewArrivals i {
+        font-size: 11px;
+    }
+    .deals .grid {
+        /* margin-left: 0px; */
+        padding-right: 0px;
+    }
+    .deals .grid img {
+        width: 160px;
+    }
+    .deals .grid .container p {
+            font-size: 12px;
+    }
     .Frame2 {
         padding: 0px 15px;
     }
     main .grid .container {
         border: none;
+    }
+    .cloths {
+        display: none;
     }
     .Frame::-webkit-scrollbar {
         display: none; /* Hide scrollbar for WebKit browsers */

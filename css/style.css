@@ -721,6 +721,7 @@ main section .NewArrivals  a button {
     grid-gap: 10px;
     padding: 0px 20px;
     /* margin-bottom: 30px; */
+    display: none;
 }
 .banner span {
     color: #EA580C;
@@ -811,235 +812,47 @@ main section .NewArrivals  a button {
     border-radius: 7px;
 }
 /* banner ends here */
-.product {
-    width: auto;
+.deals {
+    width: 100%;
     height: auto;
-    padding: 20px 25px;
-    background-color: #FFFFFF;
+    padding: 10px 20px;
 }
-.product .NewArrivals {
-    width: auto;
-    height: auto;
+.deals .NewArrivals {
+    padding: 3px 0px;
+    background-color: #E7BBC2;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.product .NewArrivals h1 {
-    color: #030712;
-    font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.product .NewArrivals h1 span {
-    color: #9CA3AF;
-    font-family:  sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin-left: 2px;
-}
-.product .NewArrivals  a {
-    text-decoration: none;
-}
-.product .NewArrivals  a button {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    color: #212529;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #E5E7EB;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-.product .NewArrivals  a button:hover {
-    border-color: #634C9F;
-    transition: 0.5s;
-}
-.product .NewArrivals  button img {
-    margin-left: 10px;
-}
-.product .prod {
-    width: auto;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    overflow-x: scroll;
-   /* background-color: red; */
-}
-.product .prod::-webkit-scrollbar {
-    display: none;
-}
-
-
-
-
-.product .prod .one {
-    position: relative;
-    display: flex;
-    padding: 5px 0;
-}
-.product .prod .sp  {
-    position: absolute;
-    top: 9%;
-    left: 0%;
-    width: 55px;
-    height: 35px;
-    /* border-radius: 10%; */
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    /* background-color: #DC2626; */
-    /* color: blue; */
-    display: flex;
-    align-items: center;
     justify-content: center;
-    color: white;
-    font-weight: bolder;
-    font-smooth: 300px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.product .prod h1 {
-    margin-top: 19px;
-    color: #030712;
-    font-size: 13px;
-    font-weight: 500;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-}
-.product .prod ul {
-    display: flex;
-    margin-top: 10px;
-}
-.product .prod ul li {
-    list-style: none;
-    margin-right: 6px;
-    color: transparent;
-    font-size: 10px;
-}
-.product .prod .product-price {
-    padding-top: 5px;
-    display: flex;
     align-items: center;
 }
-.product .prod .product-price p {
-    color: #DC2626;
-    font-family: "Encode Sans Expanded", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-}
-.product .prod .product-price span {
-    text-decoration: line-through;
-    font-family: "Encode Sans Expanded", sans-serif;
-    font-weight: 500;
+.deals .NewArrivals h1 {
+    color: #313133;
+    /* color: white; */
+    font-size: 18px;
     margin-left: 5px;
-    font-size: 14px;
-}
-
-.product .prod .cart {
-    display: flex;
-    align-items: center;
     padding-top: 10px;
 }
-
-.product .prod .cart a img {
-    background-color: #16A34A;
-    color: white;
-    padding: 12px 12px;
-    font-size: 30px;
-    border-radius: 10px;
-}
-
-.product .prod .cart h2 {
-    font-family: sans-serif;
-    padding-left: 10px;
-    font-size: 16px;
-    color: #16A34A;
-    /* font-weight: 800; */
-    text-transform: capitalize;
-}
-/* product ends here */
-
-.iner {
+.deals .grid {
     width: auto;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    padding: 0px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 5px;
+    padding-left: 0px;
+    /* background-color: red; */
+    margin-left: -10px;
 }
-.iner .left {
-    width: 47%;
-    height: auto;
-    background-image: url(../images/banner-08.jpg.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    padding: 40px 0px;
-    padding-left: 30px;
-    /* padding-bottom: 0px; */
+.deals .grid .container {
+    text-align: center;
 }
-.iner .right {
-    width: 47%;
-    height: auto;
-    background-image: url(../images/banner-09.jpg.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    padding-top: 40px;
-    padding-left: 30px;
-    /* padding-bottom:20px; */
+.deals .grid img {
+    width: 167px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
-.iner span {
-    color: #7C2D12;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    background-color: #FFEDD5;
-    padding: 5px 20px;
-    font-weight: 500;
-    border-radius: 20px;
-}
-.iner h1 {
-    font-family:  sans-serif;
-    color: #111827;
-    font-size: 30px;
-    margin-top: 15px;
-}
-.iner p {
-    color: #6B7280;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* font-weight: 300; */
-    font-size: 15px;
-}
-.iner a {
-    text-decoration: none;
-}
-.iner a button {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    color: #212529;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #E5E7EB;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-.iner button img {
-    margin-left: 10px;
-}
-.iner a button:hover {
-    border-color: #7C2D12;
-    transition: 00.5s;
-}
+
+
 /* iner ends here */
 
 
