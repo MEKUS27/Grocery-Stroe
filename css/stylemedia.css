@@ -602,7 +602,7 @@
         z-index: 1;
         top: 80px;
         left: -420px;
-        background-color: white;
+        background-color: #E94D22;
         overflow-x: hidden;
         transition: left 0.5s;
         display: block;
@@ -901,7 +901,7 @@
         z-index: 1;
         /* top: 4px; */
         left: -370px;
-        background-color: white;
+        /* background-color: #E94D22; */
         overflow-x: hidden;
         transition: left 0.5s;
         display: block;
