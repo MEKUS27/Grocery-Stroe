@@ -77,3 +77,22 @@ function toggleIcons(clickedIcon) {
         iconhearttwo.style.display = 'block';
     }
 }
+
+function toggleNav() {
+    var nav = document.getElementById("mySidenav");
+    nav.classList.toggle("active");
+}
+
+function closeNav() {
+    var nav = document.getElementById("mySidenav");
+    nav.classList.remove("active");
+}
+
+document.addEventListener("click", function(event) {
+    var nav = document.getElementById("mySidenav");
+    var toggleIcon = document.querySelector(".fa-navicon.justify");
+    
+    if (!nav.contains(event.target) && !toggleIcon.contains(event.target)) {
+        closeNav();
+    }
+});
