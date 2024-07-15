@@ -602,7 +602,7 @@
         z-index: 1;
         top: 80px;
         left: -420px;
-        background-color: #E94D22;
+        background-color: white;
         overflow-x: hidden;
         transition: left 0.5s;
         display: block;
