@@ -160,7 +160,8 @@ header .inp {
    height: auto;
    background-color: #FAEBD8;
    text-align: center;
-   padding: 5px 0px;
+   padding-top: 6px;
+   padding-bottom: 3px;
    text-transform: uppercase;
 }
 .call h1 {
