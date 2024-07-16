@@ -268,6 +268,7 @@
         display: block;
     }
 }
+
 @media only screen and (max-width: 960px) {
     header nav {
         margin-top: 160px;
@@ -377,14 +378,14 @@
     header .secondinp {
         width: 100%;
         padding-left: 12px;
-        padding-top: 4px;
-        padding-bottom: 4px;
+        padding-top: 7px;
+        padding-bottom: 7px;
         background-color: transparent;
         border: thin solid #282828 !important;
         margin-top: -8px;
         border: none;
         outline: none;
-        border-radius: 60px;
+        border-radius: 20px;
         display: block;
     }
     header .secondinp::placeholder {
@@ -467,6 +468,7 @@
         margin-left: -10px;
     }
 }
+
 @media only screen and (max-width: 820px) {
     header .notification h1 {
         padding-left: 10px;
