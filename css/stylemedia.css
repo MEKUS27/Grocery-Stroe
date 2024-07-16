@@ -310,7 +310,7 @@
         font-weight: 900 !important;
     }
     .call {
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .sidenav {
         height: auto;
@@ -578,12 +578,10 @@
         /* width: 94%; */
         height: auto;
         background-color: #FAEBD8;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 4px 0px;
+        text-align: center;
+        /* padding: 4px 0px; */
         text-transform: uppercase;
-        margin: auto;
+        /* margin: auto; */
      }
      .call h1 {
          font-size: 15px;

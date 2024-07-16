@@ -159,9 +159,7 @@ header .inp {
    width: 100%;
    height: auto;
    background-color: #FAEBD8;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   text-align: center;
    padding: 5px 0px;
    text-transform: uppercase;
 }
