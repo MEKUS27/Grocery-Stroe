@@ -270,7 +270,7 @@
 }
 @media only screen and (max-width: 960px) {
     header nav {
-        margin-top: 140px;
+        margin-top: 160px;
     }
     header .account {
         width:31%;
@@ -296,11 +296,17 @@
     header .logo i {
         display: none;
     }
+    header .second {
+        position: relative;
+    }
     header   .inp {
         display: block;
-        margin-left: -30px;
+        position: absolute;
+        /* left: 2%; */
+        right: 5%;
         color: #282828;
         margin-top: -10px;
+        font-weight: 900 !important;
     }
     .sidenav {
         height: auto;
@@ -370,15 +376,15 @@
     /* header   .inp  */
     header .secondinp {
         width: 100%;
-        padding-left: 10px;
-        padding-top: 9px;
-        padding-bottom: 9px;
+        padding-left: 12px;
+        padding-top: 4px;
+        padding-bottom: 4px;
         background-color: transparent;
         border: thin solid #282828 !important;
         margin-top: -8px;
         border: none;
         outline: none;
-        border-radius: 8px;
+        border-radius: 60px;
         display: block;
     }
     header .secondinp::placeholder {
@@ -528,6 +534,9 @@
 }
 
 @media only screen and (max-width: 680px) {
+    header nav {
+        margin-top: 120px;
+    }
     header .notification {
         padding: 3px 11px;
         /* background-color: red; */
@@ -542,7 +551,7 @@
         padding: 3px 15px;
     }
     header .second {
-        padding: 5px 15px;
+        padding: 5px 10px;
     }
     header .notification .launch-time {
         width: 100%;
@@ -611,6 +620,15 @@
     .sidenav.active {
         left: 0;
     }
+    .sidenav .hamburger {
+        /* padding-left: 20px; */
+    }
+    .sidenav .hamburger ul {
+        padding-left: 0px;
+    }
+    .sidenav .hamburger ul li .all {
+        display: none;
+    }
     .sidenav .hamburger ul li {
         list-style: none;
         display: flex;
@@ -643,6 +661,18 @@
         align-items: center;
         font-size: 20px !important;
         /* margin-left: 50px; */
+    }
+    .sidenav .hamburger .logo {
+        padding-left: 20px;
+        border-bottom: thin solid grey;
+    }
+    .sidenav .hamburger .logo  a h1 {
+        margin-right: 35px;
+        color: black;
+        font-family: "Yatra One", system-ui;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 20px;
     }
     .catego {
         width: 94%;
