@@ -271,7 +271,7 @@
 
 @media only screen and (max-width: 960px) {
     header nav {
-        margin-top: 160px;
+        margin-top: 210px;
     }
     header .account {
         width:31%;
@@ -308,6 +308,9 @@
         color: #282828;
         margin-top: -10px;
         font-weight: 900 !important;
+    }
+    .call {
+        margin-top: 10px;
     }
     .sidenav {
         height: auto;
@@ -385,7 +388,7 @@
         margin-top: -8px;
         border: none;
         outline: none;
-        border-radius: 20px;
+        border-radius: 10px;
         display: block;
     }
     header .secondinp::placeholder {
@@ -537,7 +540,7 @@
 
 @media only screen and (max-width: 680px) {
     header nav {
-        margin-top: 120px;
+        margin-top: 165px;
     }
     header .notification {
         padding: 3px 11px;
@@ -571,6 +574,22 @@
     header .notification .launch-time .sale-time li {
         font-size: 15px;
     }
+    .call {
+        /* width: 94%; */
+        height: auto;
+        background-color: #FAEBD8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 0px;
+        text-transform: uppercase;
+        margin: auto;
+     }
+     .call h1 {
+         font-size: 15px;
+         font-family: "Heebo", sans-serif;
+         font-weight: bold;
+     }
     header .account span i {
         display: none;
     }
