@@ -646,6 +646,7 @@
         transition: left 0.5s;
         display: block;
         overflow-y: scroll;
+        padding-bottom: 70px;
         /* padding-top: 60px; */
     }
     .sidenav.active {
@@ -692,19 +693,39 @@
     }
     .sidenav .hamburger ul .our  {
         display: flex;
-        background-color: #F1F1F2;
+        /* background-color: #F1F1F2; */
         font-family:  sans-serif;
         color: #404247;
         text-decoration: none;
         font-size: 12px;
         font-weight: 500;
         display: block;
-        padding: 5px 0px;
-        padding-left: 5px;
+        /* padding: 5px 0px;
+        padding-left: 5px; */
         position: relative;
         font-weight: bolder;
     }
     .sidenav .hamburger  .our  span {
+        font-size: 12px;
+        color: #FF9900;
+        position: absolute;
+        right: 7%;
+    }
+    .sidenav .hamburger  .ser  {
+        display: flex;
+        /* background-color: #F1F1F2; */
+        font-family:  sans-serif;
+        color: #404247;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 500;
+        display: block;
+        /* padding: 5px 0px; */
+        padding-left: 20px;
+        position: relative;
+        font-weight: bolder;
+    }
+    .sidenav .hamburger  .ser  span {
         font-size: 12px;
         color: #FF9900;
         position: absolute;
