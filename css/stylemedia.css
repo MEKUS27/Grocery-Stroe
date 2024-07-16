@@ -310,7 +310,7 @@
         font-weight: 900 !important;
     }
     .call {
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .sidenav {
         height: auto;
@@ -727,7 +727,7 @@
 
     }
     section .NewArrivals {
-        background-color: #276076;
+        /* background-color: #276076; */
     }
     section .NewArrivals h1 {
         color: white;
