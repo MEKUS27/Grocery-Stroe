@@ -18,6 +18,7 @@ article .head {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     overflow-x: scroll;
     padding-bottom: 30px;
+    text-align: center;
 }
 article .head::-webkit-scrollbar {
     display: none;
@@ -26,4 +27,9 @@ article .head img {
     width: 170px;
     border-radius: 10px;
     box-shadow: 1px 2px 16px #05080f13;
+}
+article .head p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
 }

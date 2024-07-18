@@ -1025,11 +1025,12 @@
     }
     article .head  {
         width: 93% !important;
+        grid-gap: 5px !important;
         grid-template-columns: 1fr 1fr 1fr 1fr !important;
-        box-shadow: none !important;
     }
     article .head img {
-        width: 130px !important;
+        width: 155px !important;
+        box-shadow: none !important;
     }
     
    
