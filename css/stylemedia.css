@@ -1030,6 +1030,7 @@
     }
     article .mobileAcc h1 {
         font-size: 13px !important;
+        font-weight: 500 !important;
     }
     article .mobileAcc span {
         font-size: 11px !important;
@@ -1037,7 +1038,7 @@
     article .head  {
         width: 95% !important;
         grid-gap: 5px !important;
-        /* grid-template-columns: 1fr 1fr 1fr 1fr !important; */
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
     }
     article .head img {
         margin-top: 0px;
