@@ -10,6 +10,7 @@ article {
 }
 article .head {
     margin: auto;
+    padding-top: 5px;
     width: 95%;
     height: auto;
     display: grid;
@@ -24,5 +25,5 @@ article .head::-webkit-scrollbar {
 article .head img {
     width: 170px;
     border-radius: 10px;
-    box-shadow: 1px 2px 16px #05080f23;
+    box-shadow: 1px 2px 16px #05080f13;
 }
