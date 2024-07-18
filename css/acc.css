@@ -12,16 +12,25 @@ article .mobileAcc {
     margin: auto;
     width: 96%;
     height: auto;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #FEE2CC;
-    padding: 10px 0px;
+    padding: 10px 10px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
 article .mobileAcc h1 {
     font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 20px;
+}
+article .mobileAcc span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FF9900;
 }
 article .head {
     margin: auto;
