@@ -8,10 +8,25 @@ article {
     height: auto;
     background-color: #ffffff;
 }
+article .mobileAcc {
+    margin: auto;
+    width: 96%;
+    height: auto;
+    text-align: center;
+    background-color: #FEE2CC;
+    padding: 10px 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+article .mobileAcc h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
 article .head {
     margin: auto;
     padding-top: 5px;
-    width: 95%;
+    width: 96%;
     height: auto;
     display: grid;
     grid-gap: 15px;

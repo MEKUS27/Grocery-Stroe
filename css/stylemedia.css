@@ -1023,12 +1023,21 @@
         font-size: 12px;
         margin-left: -10px;
     }
+    article .mobileAcc {
+        width: 95% !important;
+        padding: 8px 0px !important;
+        margin-top: 10px !important;
+    }
+    article .mobileAcc h1 {
+        font-size: 14px !important;
+    }
     article .head  {
-        width: 93% !important;
+        width: 95% !important;
         grid-gap: 5px !important;
-        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr !important; */
     }
     article .head img {
+        margin-top: 0px;
         width: 155px !important;
         box-shadow: 1px 2px 16px #05080f09 !important;
     }
