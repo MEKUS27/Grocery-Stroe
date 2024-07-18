@@ -587,6 +587,9 @@
     header .notification .launch-time .sale-time li {
         font-size: 15px;
     }
+    header .ad {
+        height: 4vh;
+    }
     .call {
         /* width: 94%; */
         height: auto;
@@ -596,7 +599,7 @@
      .call h1 {
          font-size: 16px;
          font-family: "Heebo", sans-serif;
-         letter-spacing: 1px;
+         /* letter-spacing: 1px; */
          /* font-weight: bold; */
      }
     header .account span i {

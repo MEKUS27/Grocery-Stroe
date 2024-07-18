@@ -4,7 +4,7 @@
     box-sizing: 0;
 }
 body {
-    background-color: #FFFFFF;
+    background-color: #F1F1F2;
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale; 
     font-smooth: always;                 
@@ -259,7 +259,7 @@ header .account .cart div {
 /* row-2 div ends here  */
 
 header nav {
-    margin-top: 170px;
+    margin-top: 180px;
     width: 100%;
     height: auto;
     display: flex;
@@ -828,7 +828,8 @@ footer .form {
     display: flex;
     justify-content: space-between;
     padding: 30px 20px;
-    padding-bottom: 0px;    background-color: black;
+    padding-bottom: 0px;    
+    background-color: #313133;
 
 }
 footer .form .left {
@@ -918,7 +919,7 @@ footer .right span a {
 footer .box {
     width: auto;
     height: auto;
-    background-color: black;
+    background-color: #535357;
     padding: 10px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
