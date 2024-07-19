@@ -423,7 +423,7 @@
         grid-gap: 10px;
         overflow-x: scroll;
         padding: 0px 20px;
-        margin-top: -8px;
+        margin-top: -5px;
         /* grid-template-columns: 1fr; */
         /* overflow-x: scroll; */
     }
@@ -570,7 +570,7 @@
 
 @media only screen and (max-width: 680px) {
     header nav {
-        margin-top: 150px;
+        margin-top: 130px;
     }
     header .notification {
         padding: 3px 11px;
