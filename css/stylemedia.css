@@ -642,6 +642,7 @@
     }
     header nav .right {
         width: 100%;
+        display: none;
     }
     header nav .right .Tabpanel {
         width: auto;
@@ -832,7 +833,7 @@
         margin-left: 20px;
     }
     .catego div p {
-        font-size: 9px;
+        font-size: 7px;
     }
     header nav .right .Tabpanel .car  {
         width: auto;
@@ -849,9 +850,9 @@
     .catego div {
         margin-left: -22px;
     }
-    .ones {
-        display: none;
-    }
+    /* .ones {
+        display: block;
+    } */
     .deals {
         display: none;
     }
