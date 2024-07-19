@@ -418,31 +418,32 @@
         /* overflow-x: scroll; */
     }
     .Frame2 {
-        width: 100%;
+        width: 99%;
         grid-gap: 10px;
         overflow-x: scroll;
         padding: 0px 20px;
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
+        /* overflow-x: scroll; */
     }
     .Frame2::-webkit-scrollbar {
         display: block; /* Hide scrollbar for WebKit browsers */
       }
     .Frame2 .one {
-        /* width: 600px; */
+        width:350px;
         /* background-position: left; */
         background-size: cover;
         padding: 90px 40px;
         background-position: top;
     }
     .Frame2 .two {
-        /* width: 600px; */
+        width:350px;
         background-position: left;
         background-size: cover;
         padding: 90px 40px;
         background-position: top;
     }
     .Frame2 .three {
-        /* width: 600px; */
+        width:350px;
         background-position: right;
         background-size: cover;
         padding: 90px 40px;
@@ -831,7 +832,7 @@
         margin-left: 20px;
     }
     .catego div p {
-        font-size: 11px;
+        font-size: 8px;
     }
     header nav .right .Tabpanel .car  {
         width: auto;
