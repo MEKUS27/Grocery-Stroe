@@ -814,6 +814,7 @@
     .catego  {
         padding: 0px 20px;
         /* background-color: #FF9900; */
+        display: none;
     }
 
     .catego div {
