@@ -412,27 +412,14 @@ header nav .right .Tabpanel  .ik{
     object-fit: cover;
     /* margin-left: 20px; */
 }
-.catego ul img:hover {
-    transform: scale(1.1);
-    transition: 00.4s ease-in-out;
-}
-.catego ul {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 10px;
- 
-}
-.catego ul  li {
-    margin-right: 10px;
-    list-style: none;
-}
+
 /* Frame ends here */
 
 .Frame2 {
     width: 96%;
     height: auto;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 8px;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

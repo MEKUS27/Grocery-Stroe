@@ -82,6 +82,7 @@
     }
 } */
 @media only screen and (max-width: 1115px) {
+    
     header  .logo .myinp {
         padding-right: 140%;
     }
@@ -111,7 +112,7 @@
         margin-left: 0px;
     }
     header nav {
-        margin-top: 155px;
+        margin-top: 205px;
     }
     .sidenav {
         height: auto;
@@ -289,7 +290,7 @@
 
 @media only screen and (max-width: 960px) {
     header nav {
-        margin-top: 210px;
+        margin-top: 230px;
     }
     header .account {
         width:31%;
@@ -422,6 +423,7 @@
         grid-gap: 10px;
         overflow-x: scroll;
         padding: 0px 20px;
+        margin-top: -8px;
         /* grid-template-columns: 1fr; */
         /* overflow-x: scroll; */
     }
@@ -568,7 +570,7 @@
 
 @media only screen and (max-width: 680px) {
     header nav {
-        margin-top: 155px;
+        margin-top: 150px;
     }
     header .notification {
         padding: 3px 11px;
