@@ -814,7 +814,6 @@
     .catego  {
         padding: 0px 20px;
         /* background-color: #FF9900; */
-        display: none;
     }
 
     .catego div {
@@ -833,7 +832,7 @@
         margin-left: 20px;
     }
     .catego div p {
-        font-size: 8px;
+        font-size: 9px;
     }
     header nav .right .Tabpanel .car  {
         width: auto;
@@ -854,7 +853,7 @@
         display: none;
     }
     .deals .NewArrivals  {
-        background-color: #E94D22;
+        background-color: transparent;
         justify-content: flex-start;
         padding-left: 10px;
 
@@ -864,19 +863,16 @@
         padding-left: 10px;
 
     }
-    section .NewArrivals {
-        /* background-color: #276076; */
-    }
     section .NewArrivals h1 {
-        color: white;
+        color: #030712;
         /* color: white; */
         font-size: 15px;
     }
     main .NewArrivals  a button {
-        color: white;
+        color: #030712;
     }
     main section .NewArrivals  a button {
-        color: white;
+        color: #030712;
     }
     .deals .grid {
         grid-template-columns: 1fr 1fr 1fr;
@@ -886,11 +882,11 @@
     }
     .deals .NewArrivals h1 {
         font-size: 13px;
-        color: white;
+        color: #030712;
     }
     .deals .mor  .NewArrivals h1 {
         font-size: 13px;
-        color: white;
+        color: #030712;
     }
     .deals .NewArrivals i {
         font-size: 11px;
@@ -917,12 +913,17 @@
     main {
         padding: 10px 15px;
     }
+    main .NewArrivals {
+        background-color: white;
+        padding: 0px ;
+    }
     main .NewArrivals .time {
         display: none;
     }
     main .NewArrivals h1 {
         font-size: 12px;
         margin-top: 5px;
+        color: #030712;
     }
     main .NewArrivals h1 span {
         display: none;
