@@ -251,6 +251,12 @@
     .sidenav .hamburger ul .our  {
         display: none;
     }
+    .catego div {
+        padding-top: 10px;
+        grid-gap: 10px;
+        width: 98%;
+        overflow-x: scroll;
+    }
 }
 
 @media only screen and (max-width: 1029px) {
@@ -415,7 +421,8 @@
         width: 100%;
         grid-gap: 10px;
         overflow-x: scroll;
-        padding: 0px 10px;
+        padding: 0px 20px;
+        grid-template-columns: 1fr;
     }
     .Frame2::-webkit-scrollbar {
         display: block; /* Hide scrollbar for WebKit browsers */
@@ -424,19 +431,22 @@
         /* width: 600px; */
         /* background-position: left; */
         background-size: cover;
-        padding: 50px 40px;
+        padding: 90px 40px;
+        background-position: top;
     }
     .Frame2 .two {
         /* width: 600px; */
         background-position: left;
         background-size: cover;
-        padding: 50px 40px;
+        padding: 90px 40px;
+        background-position: top;
     }
     .Frame2 .three {
         /* width: 600px; */
         background-position: right;
         background-size: cover;
-        padding: 50px 40px;
+        padding: 90px 40px;
+        background-position: top;
     }
     .product .prod {
         width: 100%;
@@ -557,7 +567,7 @@
 
 @media only screen and (max-width: 680px) {
     header nav {
-        margin-top: 165px;
+        margin-top: 155px;
     }
     header .notification {
         padding: 3px 11px;
@@ -640,7 +650,9 @@
     }
     header nav .right .Tabpanel .caruo {
         border-radius: 5px !important;
+        /* padding: 100px 0px; */
     }
+    
     .sidenav {
         height: 100%;
         width: 420px;
@@ -798,9 +810,28 @@
         font-size: 10px !important;
         color: #404247;
     }
-    .catego {
-        width: 94%;
-        padding: 0px 13px;
+    .catego  {
+        padding: 0px 20px;
+        /* background-color: #FF9900; */
+    }
+
+    .catego div {
+        /* padding-top: 10px;
+        grid-gap: 10px; */
+        width: auto;
+        overflow-x: scroll;
+    }
+    .catego div::-webkit-scrollbar {
+        display: none;
+    }
+    .catego img {
+        width: 100px;
+    }
+    .catego .ig-one {
+        margin-left: 20px;
+    }
+    .catego div p {
+        font-size: 11px;
     }
     header nav .right .Tabpanel .car  {
         width: auto;

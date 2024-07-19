@@ -12,12 +12,11 @@ article .mobileAcc {
     margin: auto;
     width: 96%;
     height: auto;
-    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #FEE2CC;
-    padding: 10px 10px;
+    padding: 10px 7px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -34,14 +33,14 @@ article .mobileAcc span {
 }
 article .head {
     margin: auto;
-    padding-top: 5px;
+    padding-top: 20px;
     width: 96%;
     height: auto;
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     overflow-x: scroll;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     text-align: center;
 }
 article .head::-webkit-scrollbar {
@@ -56,4 +55,74 @@ article .head p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 13px;
+}
+
+.acc-product {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.acc-product article .mobileAcc {
+    margin: auto;
+    width: 96%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FEE2CC;
+    padding: 10px 7px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.acc-product article .mobileAcc h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    /* color: black; */
+}
+.acc-product article .mobileAcc span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    /* color: black; */
+}
+.acc-product .products {
+    margin: auto;
+    width: 96%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 60vh;
+}
+.product-image {
+    position: relative;
+}
+.products img {
+    width: 200px;
+}
+.products  .sp  {
+    position: absolute;
+    top: 10%;
+    right: 16%;
+    width: 40px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #FEF3E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F78B1E;
+    font-weight: bolder;
+    font-size: 12px;
+    font-smooth: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.products .heart {
+    position: absolute;
+    right: 83%;
+    /* top: 0%; */
+    margin-top: -60px;
+    background-color: #ffffff7e;
+    padding: 5px;
+    border-radius: 100%;
+    color: #F8A959;
 }

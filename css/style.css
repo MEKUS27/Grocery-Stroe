@@ -389,18 +389,28 @@ header nav .right .Tabpanel  .ik{
 
 /* header nav ends here */
 .catego {
-    width: 98%;
+    width: 100%;
     height: auto;
-    overflow-x: scroll;
+}
+.catego div {
+    margin: auto;
+    width: 97%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
 }
 .catego::-webkit-scrollbar {
     display: none;
 }
-.catego ul img {
-    width: 100px;
-    height: 100px;
+.catego div li {
+    list-style: none;
+}
+.catego img {
+    width: 177px;
+    /* height: 100px; */
     border-radius: 5px;
     object-fit: cover;
+    /* margin-left: 20px; */
 }
 .catego ul img:hover {
     transform: scale(1.1);
@@ -410,7 +420,7 @@ header nav .right .Tabpanel  .ik{
     display: flex;
     justify-content: flex-start;
     padding-top: 10px;
-    /* margin-left: -10px; */
+ 
 }
 .catego ul  li {
     margin-right: 10px;
@@ -470,29 +480,29 @@ header nav .right .Tabpanel  .ik{
 }
 .Frame2 .one {
     height: auto;
-    background-image: url(../images/Magic-deals-male-572X250.jpg);
+    background-image: url(../images/Step_Up_Your_Style_712x384.jpg);
     background-position: left;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 100px 20px;
 }
 .Frame2 .two {
     height: auto;
-    background-image: url(../images/572X250_.png);
+    background-image: url(../images/Magic-deals-male-572X250.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 100px 20px;
 }
 .Frame2 .three {
     height: auto;
-    background-image: url(../images/Magic-deals-male-572X250.jpg);
+    background-image: url(../images/OSC_garments_712x384.png);
     background-position: left;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 100px 20px;
 }
 /* Freame2 ends here  */
