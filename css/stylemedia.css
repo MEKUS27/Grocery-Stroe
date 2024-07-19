@@ -849,6 +849,9 @@
     .catego div {
         margin-left: -22px;
     }
+    .ones {
+        display: none;
+    }
     .deals {
         display: none;
     }
