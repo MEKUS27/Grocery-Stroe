@@ -1026,6 +1026,9 @@
     .cloths {
         display: none;
     }
+    .write-up {
+        padding: 10px 18px;
+    }
     .write-up h1 {
         font-size: 15px;
         margin-bottom: 10px;
@@ -1056,10 +1059,10 @@
         padding-top: 10px;
     }
     footer .form .left h1 {
-        font-size: 18px;
+        font-size: 17px;
     }
     footer .form .left p {
-        font-size: 12px;
+        font-size: 11px;
     }
     footer .right .inp input  {
         padding-top: 14px;
@@ -1072,7 +1075,7 @@
     footer .right p {
         text-align: right;
         margin-left: 0px;
-        font-size: 11px;
+        font-size: 10px;
         /* padding-top: 5px; */
     }
     footer .box {
