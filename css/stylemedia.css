@@ -878,7 +878,6 @@
         overflow-x: none;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
-        /* padding: 0px; */
     }
     .cateno {
         display: block;
@@ -889,6 +888,8 @@
         margin-bottom: 0px;
     }
     .Frame5 {
+        width: 91%;
+        padding: 0px;
         margin-bottom: 0px;
     }
     .deals {
@@ -948,12 +949,10 @@
     main .grid .container {
         border: none;
     }
-    .cloths {
-        display: block;
-    }
   
     main {
         padding: 10px 15px;
+        display: none;
     }
     main .NewArrivals {
         padding: 5px 5px;
@@ -1023,6 +1022,9 @@
         font-size: 9px;
         text-align: left;
         font-weight: 500;
+    }
+    .cloths {
+        display: none;
     }
     .write-up h1 {
         font-size: 15px;
