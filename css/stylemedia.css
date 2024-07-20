@@ -839,7 +839,7 @@
         margin-left: 20px;
     }
     .catego div p {
-        font-size: 7px;
+        font-size: 9px;
     }
     header nav .right .Tabpanel .car  {
         width: auto;
@@ -927,8 +927,8 @@
         padding: 10px 15px;
     }
     main .NewArrivals {
-        background-color: white;
-        padding: 0px ;
+        /* background-color: white; */
+        /* padding: 0px ; */
     }
     main .NewArrivals .time {
         display: none;
@@ -936,7 +936,7 @@
     main .NewArrivals h1 {
         font-size: 12px;
         margin-top: 5px;
-        color: #030712;
+        /* color: #030712; */
     }
     main .NewArrivals h1 span {
         display: none;
@@ -944,6 +944,7 @@
     main .NewArrivals  a button {
         padding: 0px;
         font-size: 11px;
+        color: white;
     }
     main .grid .container .sp {
         width: 35px;
@@ -1146,14 +1147,14 @@
         padding-right: 0px;
     }
     .catego div {
-        /* padding-top: 10px;
-        grid-gap: 10px; */
         width: auto;
         overflow-x: none;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
     }
-   
+    .cateno {
+        display: block;
+    }
     footer .box {
         display: none;
     }

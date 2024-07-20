@@ -412,6 +412,9 @@ header nav .right .Tabpanel  .ik{
     object-fit: cover;
     /* margin-left: 20px; */
 }
+.cateno {
+    display: none;
+}
 
 /* Frame ends here */
 
@@ -507,8 +510,8 @@ main .NewArrivals {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #276076;
-    padding: 10px 10px;
+    background-color: #E61601;
+    padding: 0px 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -535,8 +538,8 @@ main .NewArrivals .time {
 }
 main .NewArrivals .time p {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 17px;
     padding-left: 10px;
 }
 main .NewArrivals .time ul {
@@ -545,7 +548,8 @@ main .NewArrivals .time ul {
     list-style: none;
     margin-left: -33px;
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 600;
+    font-size: 17px;
 }
 main .NewArrivals .time ul div{
     display: flex;
@@ -560,7 +564,7 @@ main .NewArrivals  a {
 main .NewArrivals  a button {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 17px;
     color: #FFFFEF;
     border: none;
     background-color: transparent;
@@ -615,16 +619,11 @@ main .grid .container h1 {
 }
 main .grid .container p {
     font-family: sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
     margin-top: 0px;
     color: #333538;
 }
-/* main .grid .container span {
-    text-decoration: line-through;
-    color: #787E89;
-    font-size: 12px;
-} */
 main .grid .container .flash-sale-price {
     display: flex;
     /* align-items: center; */
