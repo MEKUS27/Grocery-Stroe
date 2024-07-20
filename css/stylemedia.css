@@ -814,6 +814,9 @@
         font-size: 10px !important;
         color: #404247;
     }
+    .cate {
+        display: none;
+    }
     .catego  {
         padding: 0px 20px;
         /* background-color: #FF9900; */
@@ -824,6 +827,7 @@
         grid-gap: 10px; */
         width: auto;
         overflow-x: scroll;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     }
     .catego div::-webkit-scrollbar {
         display: none;
@@ -1138,6 +1142,17 @@
         grid-gap: 20px;
         padding: 10px 10px;
     }   
+    .catego {
+        padding-right: 0px;
+    }
+    .catego div {
+        /* padding-top: 10px;
+        grid-gap: 10px; */
+        width: auto;
+        overflow-x: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
    
     footer .box {
         display: none;
