@@ -841,14 +841,14 @@
     .cate {
         display: none;
     }
-    .catego  {
+    /* .catego  {
         padding: 0px 30px;
     }
 
     .catego div {
         width: auto;
         overflow-x: scroll;
-    }
+    } */
     .catego div::-webkit-scrollbar {
         display: none;
     }
@@ -882,6 +882,7 @@
     .cateno {
         display: block;
     }
+    
     .Frame2 {
         width: 91%;
         padding: 0px;
@@ -1141,19 +1142,19 @@
         font-size: 11px !important;
     }
     article .head  {
-        width: 95% !important;
+        width: 92% !important;
         grid-gap: 5px !important;
         grid-template-columns: 1fr 1fr 1fr 1fr !important;
     }
     article .head img {
         margin-top: 0px;
-        width: 155px !important;
+        width: 95px !important;
         box-shadow: 1px 2px 16px #05080f09 !important;
     }
     article .head p {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        font-size: 11px !important;
+        font-size: 8px !important;
     }
     
    
