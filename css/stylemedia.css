@@ -423,7 +423,7 @@
         grid-gap: 10px;
         overflow-x: scroll;
         padding: 0px 20px;
-        margin-top: -5px;
+        /* margin-top: -5px; */
         /* grid-template-columns: 1fr; */
         /* overflow-x: scroll; */
     }
@@ -570,7 +570,7 @@
 
 @media only screen and (max-width: 680px) {
     header nav {
-        margin-top: 130px;
+        margin-top: 133px;
     }
     header .notification {
         padding: 3px 11px;
@@ -851,6 +851,9 @@
     }
     .catego div {
         margin-left: -22px;
+    }
+    .Frame2 {
+        margin-bottom: 0px;
     }
     /* .ones {
         display: block;

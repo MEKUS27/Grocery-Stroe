@@ -424,6 +424,7 @@ header nav .right .Tabpanel  .ik{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 25px;
+    margin-bottom: 20px;
 
 }
 .Frame2 span {
@@ -506,7 +507,7 @@ main .NewArrivals {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #E94D22;
+    background-color: #276076;
     padding: 10px 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -602,21 +603,28 @@ main .grid .container {
     padding-top: 10px;
 }
 main .grid .container div img {
-    width: 140px;
+    width: 160px;
     text-align: left;
     margin-left: -10px;
 }
 main .grid .container h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 15px;
+    padding-top: 5px;
 }
 main .grid .container p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 13px;
-    text-decoration:double line-through;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0px;
+    color: #333538;
 }
+/* main .grid .container span {
+    text-decoration: line-through;
+    color: #787E89;
+    font-size: 12px;
+} */
 main .grid .container .flash-sale-price {
     display: flex;
     /* align-items: center; */
