@@ -496,6 +496,47 @@ header nav .right .Tabpanel  .ik{
     border-radius: 5px;
     padding: 100px 20px;
 }
+
+.Frame5 {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    margin-top: 8px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    margin-bottom: 20px;
+
+}
+
+.Frame5  .one {
+    height: auto;
+    background-image: url(../images/Desktop_Homepage_Slider__712x384.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 100px 20px;
+}
+.Frame5  .two {
+    height: auto;
+    background-image: url(../images/Diageo_712x384.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 100px 20px;
+}
+.Frame5  .three {
+    height: auto;
+    background-image: url(../images/Beat-the-rain-712_X_384.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 100px 20px;
+}
 /* Freame2 ends here  */
 
 main {
@@ -535,6 +576,9 @@ main .NewArrivals .time {
     /* align-items: center; */
     color: white;
     padding-top: 15px;
+}
+main .NewArrivals .TIME {
+    display: none;
 }
 main .NewArrivals .time p {
     font-family: "Roboto", sans-serif;
@@ -673,7 +717,7 @@ main section .NewArrivals  a button {
 }
 .deals .mor .NewArrivals {
     padding: 3px 0px;
-    background-color: #276076;
+    background-color: #FF9900;
     text-align: center;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -690,7 +734,7 @@ main section .NewArrivals  a button {
 }
 .deals .NewArrivals {
     padding: 3px 0px;
-    background-color: #E7BBC2;
+    background-color: #ABDEF1;
     text-align: center;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -784,7 +828,7 @@ main section .NewArrivals  a button {
 }
 .Frame3 .two {
     height: auto;
-    background-image: url(../images/Desktop_MLP_Slider__1168x384.jpg);
+    background-image: url(../images/Desktop_Homepage_Slider__712x384.jpg);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;

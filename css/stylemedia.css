@@ -423,16 +423,12 @@
         grid-gap: 10px;
         overflow-x: scroll;
         padding: 0px 20px;
-        /* margin-top: -5px; */
-        /* grid-template-columns: 1fr; */
-        /* overflow-x: scroll; */
     }
     .Frame2::-webkit-scrollbar {
         display: block; /* Hide scrollbar for WebKit browsers */
       }
     .Frame2 .one {
         width:350px;
-        /* background-position: left; */
         background-size: cover;
         padding: 90px 40px;
         background-position: top;
@@ -445,6 +441,35 @@
         background-position: top;
     }
     .Frame2 .three {
+        width:350px;
+        background-position: right;
+        background-size: cover;
+        padding: 90px 40px;
+        background-position: top;
+    }
+    .Frame5 {
+        width: 99%;
+        grid-gap: 10px;
+        overflow-x: scroll;
+        padding: 0px 20px;
+    }
+    .Frame5::-webkit-scrollbar {
+        display: block; /* Hide scrollbar for WebKit browsers */
+      }
+    .Frame5 .one {
+        width:350px;
+        background-size: cover;
+        padding: 90px 40px;
+        background-position: top;
+    }
+    .Frame5 .two {
+        width:350px;
+        background-position: left;
+        background-size: cover;
+        padding: 90px 40px;
+        background-position: top;
+    }
+    .Frame5 .three {
         width:350px;
         background-position: right;
         background-size: cover;
@@ -654,7 +679,6 @@
     }
     header nav .right .Tabpanel .caruo {
         border-radius: 5px !important;
-        /* padding: 100px 0px; */
     }
     
     .sidenav {
@@ -819,15 +843,11 @@
     }
     .catego  {
         padding: 0px 20px;
-        /* background-color: #FF9900; */
     }
 
     .catego div {
-        /* padding-top: 10px;
-        grid-gap: 10px; */
         width: auto;
         overflow-x: scroll;
-        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     }
     .catego div::-webkit-scrollbar {
         display: none;
@@ -839,7 +859,7 @@
         margin-left: 20px;
     }
     .catego div p {
-        font-size: 9px;
+        font-size: 8px;
     }
     header nav .right .Tabpanel .car  {
         width: auto;
@@ -859,9 +879,9 @@
     .Frame2 {
         margin-bottom: 0px;
     }
-    /* .ones {
-        display: block;
-    } */
+    .Frame5 {
+        margin-bottom: 0px;
+    }
     .deals {
         display: none;
     }
@@ -927,11 +947,34 @@
         padding: 10px 15px;
     }
     main .NewArrivals {
-        /* background-color: white; */
-        /* padding: 0px ; */
+        padding: 5px 5px;
+        flex-wrap: wrap;
     }
     main .NewArrivals .time {
         display: none;
+        /* flex-wrap: wrap; */
+    }
+    main .NewArrivals .Dee {
+        width: 80%;
+    }
+    main .NewArrivals .Dee .time {
+        display: flex;
+        padding: 0px;
+    }
+    main .NewArrivals .Dee .time p {
+        padding-left: 0px;
+    }
+    main .NewArrivals .TIME {
+        display: block;
+    }
+    main .NewArrivals .time p {
+        font-size: 12px;
+    }
+    main .NewArrivals .time ul {
+        font-size: 12px;
+    }
+    main .NewArrivals .time  .p {
+        margin-left: 5px;
     }
     main .NewArrivals h1 {
         font-size: 12px;
