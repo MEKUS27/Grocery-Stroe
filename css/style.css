@@ -407,10 +407,8 @@ header nav .right .Tabpanel  .ik{
 }
 .catego img {
     width: 177px;
-    /* height: 100px; */
     border-radius: 5px;
     object-fit: cover;
-    /* margin-left: 20px; */
 }
 .cateno {
     display: none;
@@ -573,7 +571,6 @@ main .NewArrivals h1 span {
 }
 main .NewArrivals .time {
     display: flex;
-    /* align-items: center; */
     color: white;
     padding-top: 15px;
 }

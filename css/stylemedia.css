@@ -842,7 +842,7 @@
         display: none;
     }
     .catego  {
-        padding: 0px 20px;
+        padding: 0px 30px;
     }
 
     .catego div {
@@ -869,12 +869,19 @@
         display: none;
     }
 
-    .catego ul img {
-        width: 85px;
-        height: 85px;
+    .catego {
+        width: 99%;
+        padding: 0px;
     }
     .catego div {
-        margin-left: -22px;
+        width: auto;
+        overflow-x: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        /* padding: 0px; */
+    }
+    .cateno {
+        display: block;
     }
     .Frame2 {
         width: 91%;
@@ -961,6 +968,7 @@
     }
     main .NewArrivals .Dee .time {
         display: flex;
+        align-items: center;
         padding: 0px;
     }
     main .NewArrivals .Dee .time p {
@@ -1188,17 +1196,20 @@
         grid-gap: 20px;
         padding: 10px 10px;
     }   
+   
     .catego {
-        padding-right: 0px;
+        width: 95%;
+        padding: 0px;
     }
     .catego div {
-        width: auto;
+        margin-left: 17px;
+    }
+    .catego div {
+        width: 98%;
         overflow-x: none;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
-    }
-    .cateno {
-        display: block;
+        /* padding: 0px; */
     }
     footer .box {
         display: none;
