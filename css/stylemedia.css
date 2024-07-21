@@ -1142,8 +1142,10 @@
         font-size: 11px !important;
     }
     article .head  {
+        margin-top: 10px !important;
         width: 92% !important;
         grid-gap: 5px !important;
+        padding-top: 0px !important;
         grid-template-columns: 1fr 1fr 1fr 1fr !important;
         overflow-x: hidden !important;
     }
