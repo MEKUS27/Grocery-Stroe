@@ -1144,11 +1144,11 @@
     article .head  {
         width: 92% !important;
         grid-gap: 5px !important;
-        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
     }
     article .head img {
         margin-top: 0px;
-        width: 95px !important;
+        width: 150px !important;
         box-shadow: 1px 2px 16px #05080f09 !important;
     }
     article .head p {

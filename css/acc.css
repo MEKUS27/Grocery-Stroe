@@ -37,7 +37,7 @@ article .head {
     width: 96%;
     height: auto;
     display: grid;
-    grid-gap: 15px;
+    /* grid-gap: 15px; */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     overflow-x: scroll;
     padding-bottom: 10px;
