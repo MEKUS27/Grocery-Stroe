@@ -1143,8 +1143,8 @@
     }
     article .head  {
         width: 92% !important;
-        grid-gap: 5px !important;
-        grid-template-columns: 1fr 1fr 1fr !important;
+        /* grid-gap: 5px !important; */
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
     }
     article .head img {
         margin-top: 0px;
