@@ -15,21 +15,21 @@ article .mobileAcc {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FEE2CC;
+    background-color: #AADEF1;
     padding: 10px 7px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
 article .mobileAcc h1 {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 17px;
 }
 article .mobileAcc span {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    color: #FF9900;
+    /* color: #FF9900; */
 }
 article .head {
     margin: auto;
@@ -69,7 +69,7 @@ article .head p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FEE2CC;
+    background-color: #AADEF1;
     padding: 10px 7px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
