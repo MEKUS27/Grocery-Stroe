@@ -1142,14 +1142,13 @@
         font-size: 11px !important;
     }
     article .head  {
-        width: 90% !important;
-        /* grid-gap: 5px !important; */
-        /* padding-top: 0px !important; */
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  !important;
+        width: 92% !important;
+        grid-gap: 5px !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
     }
     article .head img {
         margin-top: 0px;
-        width: 135px !important;
+        width: 95px !important;
         box-shadow: 1px 2px 16px #05080f09 !important;
     }
     article .head p {
