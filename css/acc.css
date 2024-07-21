@@ -38,7 +38,7 @@ article .head {
     height: auto;
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     overflow-x: scroll;
     padding-bottom: 10px;
     text-align: center;
@@ -47,7 +47,7 @@ article .head::-webkit-scrollbar {
     display: none;
 }
 article .head img {
-    width: 170px;
+    width: 180px;
     border-radius: 10px;
     box-shadow: 1px 2px 16px #05080f13;
 }
