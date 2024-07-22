@@ -37,6 +37,12 @@ article .head {
     padding-bottom: 10px;
     text-align: center;
 }
+.secondhead {
+    margin-bottom: 20px;
+}
+.lasthead {
+    margin-top: -10px;
+}
 article .head::-webkit-scrollbar {
     display: none;
 }
