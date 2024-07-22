@@ -1214,8 +1214,9 @@
     }
     article .head  {
         margin-top: 0px !important;
-        width: 93% !important;
-        grid-gap: 5px !important;
+        width: 94% !important;
+        /* background-color: red !important; */
+        /* grid-gap: 5px !important; */
         padding-top: 0px !important;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
         /* overflow-x: hidden !important; */
@@ -1227,7 +1228,7 @@
     }
     article .head p {
         font-family: "Roboto", sans-serif;
-        font-weight: 600 !important;
+        font-weight: 500 !important;
         font-size: 8px !important;
     }
 }
