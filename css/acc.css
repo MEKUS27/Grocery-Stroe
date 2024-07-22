@@ -10,6 +10,7 @@ article {
 }
 article .mobileAcc {
     margin: auto;
+    margin-bottom: 15px;
     width: 96%;
     height: auto;
    text-align: center;
