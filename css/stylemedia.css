@@ -1129,36 +1129,7 @@
         font-size: 12px;
         margin-left: -10px;
     }
-    article .mobileAcc {
-        width: 95% !important;
-        /* padding: 8px 0px !important; */
-        margin-top: 10px !important;
-    }
-    article .mobileAcc h1 {
-        font-size: 13px !important;
-        font-weight: 500 !important;
-    }
-    article .mobileAcc span {
-        font-size: 11px !important;
-    }
-    article .head  {
-        margin-top: 10px !important;
-        width: 92% !important;
-        grid-gap: 5px !important;
-        padding-top: 0px !important;
-        grid-template-columns: 1fr 1fr 1fr 1fr !important;
-        overflow-x: hidden !important;
-    }
-    article .head img {
-        margin-top: 0px;
-        width: 98px !important;
-        box-shadow: 1px 2px 16px #05080f09 !important;
-    }
-    article .head p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 8px !important;
-    }
+    
     
    
 }
@@ -1224,6 +1195,39 @@
     }
     footer .pay {
         display: none;
+    }
+    article .mobileAcc {
+        width: 95% !important;
+        /* padding: 8px 0px !important; */
+        margin-top: 10px !important;
+    }
+    article .mobileAcc h1 {
+        font-size: 13px !important;
+        font-weight: 500 !important;
+    }
+    article .mobileAcc span {
+        font-size: 11px !important;
+    }
+     .firsthead {
+        margin-top: 15px !important;
+    }
+    article .head  {
+        margin-top: 0px !important;
+        width: 92% !important;
+        grid-gap: 5px !important;
+        padding-top: 0px !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        /* overflow-x: hidden !important; */
+    }
+    article .head img {
+        margin-top: 0px;
+        width: 98px !important;
+        box-shadow: 1px 2px 16px #05080f09 !important;
+    }
+    article .head p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 8px !important;
     }
 }
 /* @media only screen and (max-width: 367px)  */

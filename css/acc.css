@@ -12,33 +12,26 @@ article .mobileAcc {
     margin: auto;
     width: 96%;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   text-align: center;
     background-color: #AADEF1;
-    padding: 10px 7px;
+    padding: 7px 7px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
 article .mobileAcc h1 {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 600;
+    font-size: 20px;
 }
-article .mobileAcc span {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    /* color: #FF9900; */
-}
+
 article .head {
     margin: auto;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     width: 96%;
     height: auto;
     display: grid;
     /* grid-gap: 15px; */
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     overflow-x: scroll;
     padding-bottom: 10px;
     text-align: center;
