@@ -1200,10 +1200,12 @@
         width: 93% !important;
         /* padding: 8px 0px !important; */
         margin-top: 15px !important;
+        background-color: #E61601 !important;
     }
     article .mobileAcc h1 {
-        font-size: 13px !important;
+        font-size: 15px !important;
         font-weight: 500 !important;
+        color: white;
     }
    
      .firsthead {
@@ -1219,13 +1221,13 @@
     }
     article .head img {
         margin-top: 0px;
-        width: 100px !important;
+        width: 105px !important;
         box-shadow: 1px 2px 16px #05080f09 !important;
     }
     article .head p {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        font-size: 7px !important;
+        font-size: 8px !important;
     }
 }
 /* @media only screen and (max-width: 367px)  */
