@@ -1222,12 +1222,12 @@
     }
     article .head img {
         margin-top: 0px;
-        width: 125px !important;
+        width: 130px !important;
         box-shadow: 1px 2px 16px #05080f09 !important;
     }
     article .head p {
         font-family: "Roboto", sans-serif;
-        font-weight: 700 !important;
+        font-weight: 600 !important;
         font-size: 8px !important;
     }
 }
