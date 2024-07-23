@@ -39,14 +39,16 @@
         border-radius: 2px;
     }
     .prod-grid .one  .sp {
-        top: 0%;
-        right: 0%;
+        top: 3%;
+        right: 4%;
+        width: 44px;
+        font-size: 11px;
     }
     .prod-grid .one .heart {
         top:60%;
     }
     .prod-grid .prod-name h2 {
-        font-size: 9px;
+        font-size: 8px;
     }
     .p-price {
         display: flex;
@@ -56,10 +58,11 @@
     .prod-grid .prod-price p {
         margin-top: 0px;
         margin-right: 3px;
-        font-size: 9px;
+        font-size: 10px;
     }
     .prod-grid .prod-scound-price {
         margin-top: 0px;
-        font-size: 8px;
+        font-size: 9px;
+        color: gray;
     }
 }
