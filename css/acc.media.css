@@ -13,20 +13,17 @@
 }
 
 @media only screen and (max-width: 680px) {
-    
-}
-@media only screen and (max-width: 480px) {
     .product .h1 {
         text-align: left;
         padding: 0px;
     }
     .product .h1 h1 {
-        font-size: 11px;
+        font-size: 10px;
         padding: 10px 5px;
     }
     .product .prod-grid {
         overflow-x: hidden;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         background-color: #F1F1F2;
         padding-top: 5px;
         margin-top: -10px;
@@ -60,17 +57,38 @@
     .prod-grid .prod-price p {
         margin-top: 0px;
         margin-right: 3px;
-        font-size: 10px;
+        font-size: 11px;
     }
     .prod-grid .prod-scound-price {
         margin-top: 0px;
         font-size: 9px;
         color: gray;
     }
-    .prod-grid .lumia span {
-        font-size: 9px;
+    .prod-grid .lumia p {
+        font-size: 11px;
+    }
+    .prod-grid .lumia span  {
+        font-size: 11px;
     }
     .prod-grid .com {
         display: none;
+    }
+    .prod-grid form a {
+        text-decoration: none;
+    }
+    .prod-grid form a button {
+        display: block;
+        padding: 5px 40px;
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .product .prod-grid {
+        overflow-x: hidden;
+        grid-template-columns: 1fr 1fr ;
+        background-color: #F1F1F2;
+        padding-top: 5px;
+        margin-top: -10px;
+        padding: 5px 0px;
     }
 }

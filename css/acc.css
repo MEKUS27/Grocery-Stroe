@@ -133,7 +133,7 @@ article .head p {
     height: auto;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
     /* background-color: #F1F1F2; */
     position: relative;
     padding-top: 20px;
@@ -178,8 +178,8 @@ article .head p {
 
 .prod-grid .one  .sp  {
     position: absolute;
-    top: 78%;
-    right: 35%;
+    top: 75%;
+    right: 2%;
     width: 50px;
     height: 24px;
     border-radius: 5px;
@@ -256,8 +256,9 @@ article .head p {
     border-radius: 3px;
     background-color: #F78B1E;
     color: white;
-    box-shadow: 1px 1px 10px rgba(117, 117, 117, 0.603);
+    box-shadow: 1px 1px 10px rgba(141, 141, 141, 0.479);
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-size: 14px;
+    display: none;
 }

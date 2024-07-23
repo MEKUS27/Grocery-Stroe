@@ -1231,8 +1231,8 @@
     }
     article .head p {
         font-family: "Roboto", sans-serif;
-        font-weight: 500 !important;
-        font-size: 8px !important;
+        font-weight: 400 !important;
+        font-size: 7px !important;
     }
 }
 /* @media only screen and (max-width: 367px)  */
