@@ -36,6 +36,7 @@
         background-color: white;
         /* padding: 0px 5px; */
         padding-left: 10px;
+        padding-right: 10px;
         border-radius: 2px;
     }
     .prod-grid .one  .sp {
@@ -64,5 +65,8 @@
         margin-top: 0px;
         font-size: 9px;
         color: gray;
+    }
+    .prod-grid .com {
+        display: none;
     }
 }
