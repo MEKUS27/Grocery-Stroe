@@ -21,7 +21,7 @@
         padding: 0px;
     }
     .product .h1 h1 {
-        font-size: 13px;
+        font-size: 11px;
         padding: 10px 5px;
     }
     .product .prod-grid {
@@ -30,11 +30,36 @@
         background-color: #F1F1F2;
         padding-top: 5px;
         margin-top: -10px;
+        padding: 5px 0px;
     }
     .prod-grid  .one {
         background-color: white;
         /* padding: 0px 5px; */
         padding-left: 10px;
-        border-radius: 5px;
+        border-radius: 2px;
+    }
+    .prod-grid .one  .sp {
+        top: 0%;
+        right: 0%;
+    }
+    .prod-grid .one .heart {
+        top:60%;
+    }
+    .prod-grid .prod-name h2 {
+        font-size: 9px;
+    }
+    .p-price {
+        display: flex;
+        align-items: center;
+        margin-top: -5px;
+    }
+    .prod-grid .prod-price p {
+        margin-top: 0px;
+        margin-right: 3px;
+        font-size: 9px;
+    }
+    .prod-grid .prod-scound-price {
+        margin-top: 0px;
+        font-size: 8px;
     }
 }
