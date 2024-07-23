@@ -130,7 +130,7 @@ header  .logo a h1 {
     font-size: 25px;
 }
 header  .logo .myinp {
-    padding-right: 260%;
+    padding-right: 240%;
     padding-left: 10px;
     /* width: 100%; */
     padding-top: 10px;
@@ -180,7 +180,7 @@ header  .logo i {
     color: grey;
 }
 header .account {
-    width: 13%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -469,7 +469,7 @@ header nav .right .Tabpanel  .ik{
 }
 .Frame2 .one {
     height: auto;
-    background-image: url(../images/Step_Up_Your_Style_712x384.jpg);
+    background-image: url(../images/Desktop_Homepage_Slider__712x384.jpg);
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -478,7 +478,8 @@ header nav .right .Tabpanel  .ik{
 }
 .Frame2 .two {
     height: auto;
-    background-image: url(../images/Magic-deals-male-572X250.jpg);
+    background-image: url(../images/Step_Up_Your_Style_712x384.jpg);
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -487,8 +488,8 @@ header nav .right .Tabpanel  .ik{
 }
 .Frame2 .three {
     height: auto;
-    background-image: url(../images/OSC_garments_712x384.png);
-    background-position: left;
+    background-image: url(../images/Desktop_Double_banner_572X250_fashion.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -510,7 +511,7 @@ header nav .right .Tabpanel  .ik{
 
 .Frame5  .one {
     height: auto;
-    background-image: url(../images/Desktop_Homepage_Slider__712x384.jpg);
+    background-image: url(../images/572px-x250px.gif);
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;

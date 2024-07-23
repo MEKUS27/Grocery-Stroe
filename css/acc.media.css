@@ -1,5 +1,7 @@
 @media only screen and (max-width: 1115px) {
-
+    .product .prod-grid {
+        overflow-x: scroll;
+    }
 }
 
 @media only screen and (max-width: 980px) {
@@ -14,5 +16,25 @@
     
 }
 @media only screen and (max-width: 480px) {
-    
+    .product .h1 {
+        text-align: left;
+        padding: 0px;
+    }
+    .product .h1 h1 {
+        font-size: 13px;
+        padding: 10px 5px;
+    }
+    .product .prod-grid {
+        overflow-x: hidden;
+        grid-template-columns: 1fr 1fr;
+        background-color: #F1F1F2;
+        padding-top: 5px;
+        margin-top: -10px;
+    }
+    .prod-grid  .one {
+        background-color: white;
+        /* padding: 0px 5px; */
+        padding-left: 10px;
+        border-radius: 5px;
+    }
 }
