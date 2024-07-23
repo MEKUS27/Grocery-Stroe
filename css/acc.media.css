@@ -78,8 +78,15 @@
     }
     .prod-grid form a button {
         display: block;
-        padding: 5px 35px;
+        padding: 6px 35px;
         font-size: 12px;
+        border-radius: 2px;
+    }
+    #za {
+        display: none;
+    }
+    footer {
+        display: none;
     }
 }
 @media only screen and (max-width: 575px) {

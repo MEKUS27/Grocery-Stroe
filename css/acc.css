@@ -111,7 +111,7 @@ article .head p {
     margin: auto;
     width: 96%;
     height: auto;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     /* background-color: red; */
 }
 .product .h1 {
