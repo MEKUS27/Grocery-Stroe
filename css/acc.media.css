@@ -71,7 +71,11 @@
         font-size: 11px;
     }
     .prod-grid .com {
+        width: 75px;
         display: block;
+    }
+    .prod-grid .com h3 {
+        padding-top: 4px;
     }
     .prod-grid form a {
         text-decoration: none;
