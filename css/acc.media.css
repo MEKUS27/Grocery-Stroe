@@ -71,15 +71,15 @@
         font-size: 11px;
     }
     .prod-grid .com {
-        display: none;
+        display: block;
     }
     .prod-grid form a {
         text-decoration: none;
     }
     .prod-grid form a button {
         display: block;
-        padding: 5px 40px;
-        font-size: 11px;
+        padding: 6px 40px;
+        font-size: 12px;
     }
 }
 @media only screen and (max-width: 575px) {
