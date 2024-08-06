@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1115px) {
+    
+    .AD .img {
+        width: 100%;
+        background-position: center;
+        background-size:auto;
+        background-repeat: no-repeat;
+    }
+    
+}
+@media only screen and (max-width: 740px) {
+    .AD .img {
+        background:none ;
+        text-align: center;
+        padding: 0px;
+    }
+    .AD .img img {
+        display: block;
+        margin-right: 10px;
+    }
+} 
