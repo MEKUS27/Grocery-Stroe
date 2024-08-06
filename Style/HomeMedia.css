@@ -9,6 +9,9 @@
     
 }
 @media only screen and (max-width: 740px) {
+    .AD {
+        background-color: #FF9900;
+    }
     .AD .img {
         background:none ;
         text-align: center;
