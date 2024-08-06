@@ -10,15 +10,31 @@
 }
 @media only screen and (max-width: 740px) {
     .AD {
-        background-color: #FF9900;
+        background-color: red;
     }
     .AD .img {
-        background:none ;
-        text-align: center;
+        background: none;
         padding: 0px;
     }
     .AD .img img {
         display: block;
-        margin-right: 10px;
+        /* margin-right: 10px; */
+        /* width: 700px; */
+    }
+} 
+
+@media only screen and (max-width: 480px) {
+    .AD {
+        background-color: white;
+    }
+    .AD .img {
+        background: none;
+        padding: 0px;
+    }
+    .AD .img img {
+        width: 415px;
+        display: block;
+        /* margin-right: 10px; */
+        /* width: 700px; */
     }
 } 
