@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Only Site</title>
+    <style>
+        /* Base styles for mobile view */
+        
+        
+        /* Hide everything on screens larger than 767px */
+        @media (max-width: 480px) {
+            .mobile-content {
+                display: block !important;
+            }
+            .non-mobile-message{
+                display: none !important;
+            }
+            .h1 {
+                display: none !important;
+            }
+        }
+        
+        @media  (min-width: 1116px) and (max-width: 1366px){
+            .mobile-content {
+                display: none !important;
+            }
+            .non-mobile-message{
+                display: block !important;
+            }
+            .h1 {
+                display: none !important;
+            }
+        }
+        .mobile-content, .non-mobile-message{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hold">
+        <div class="mobile-content">
+            <!-- Your mobile-only content goes here -->
+            <h1>Welcome to our Mobile Site!</h1>
+            <p>This site is optimized for mobile devices.</p>
+        </div>
+        <div class="non-mobile-message">
+            <h1>This site is only available on mobile devices.</h1>
+            <p>Please visit us using a mobile device for the best experience.</p>
+        </div>
+        <h1 class="h1">This site is not available
+            <p>Please visit us using a mobile device for the best experience.</p>
+        </h1>
+    </div>
+
+    <script>
+        // JavaScript to show a message on larger screens
+        if (window.innerWidth >= 768) {
+            document.getElementById('mobile-content').style.display = 'none';
+            document.getElementById('non-mobile-message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

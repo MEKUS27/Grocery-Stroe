@@ -1,40 +1,71 @@
-@media only screen and (max-width: 1115px) {
-    
-    .AD .img {
-        width: 100%;
-        background-position: center;
-        background-size:auto;
-        background-repeat: no-repeat;
-    }
-    
-}
-@media only screen and (max-width: 740px) {
-    .AD {
-        background-color: red;
-    }
-    .AD .img {
-        background: none;
-        padding: 0px;
-    }
-    .AD .img img {
-        display: block;
-        /* margin-right: 10px; */
-        /* width: 700px; */
-    }
-} 
 
-@media only screen and (max-width: 480px) {
-    .AD {
-        background-color: white;
+@media  (min-width: 1120px) {
+    .DESView {
+        display: block !important;
     }
-    .AD .img {
-        background: none;
-        padding: 0px;
+    .blank {
+        display: none !important;
     }
-    .AD .img img {
-        width: 440px;
-        display: block;
-        /* margin-right: 10px; */
-        /* width: 700px; */
+    
+
+}
+    
+@media (max-width: 520px) {
+    .blank {
+        display: none !important;
     }
-} 
+    .mobile {
+        display: block !important;
+    }
+    main {
+        width: 95%;
+    }
+    main  .prod_img img {
+        width: 160px;
+        border-radius: 3px;
+    }
+    main .prod_name h1 {
+        font-size: 13px;
+    }
+    main .prod_price {
+        font-size: 14px;
+    }
+    main .former_prod_price {
+        font-size: 12px;
+    }
+    main .prod_remainitem {
+        font-size: 12px;
+    }
+    .magic_deals {
+        width: 95%;
+        margin-top: 10px;
+    }
+    .jumia {
+        width: 95%;
+    }
+    .jumia h1 {
+        font-size: 14px;
+    }
+    .jumia h2 {
+        font-size: 14px;
+    }
+    .jumia p {
+        padding-right: 0px;
+    }
+    /* .magic_deals .left .image {
+        width: auto;
+    }
+    .magic_deals .right .image {
+        width: auto;
+    }
+    .magic_deals .left .image img{
+        width: 130%;
+        height: 130%;
+        object-fit: cover;
+    }
+    .magic_deals .right .image img{
+        width: 130%;
+        height: 130%;
+        object-fit: cover;
+    } */
+}
